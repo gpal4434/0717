@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family:"NanumSquare";
+    font-weight: 300;
+    src:url('/assets/font/NanumSquareL.eot') format('embedded-opentype'),
+        url('/assets/font/NanumSquareL.ttf') format('truetype'),
+        url('/assets/font/NanumSquareL.woff') format('woff');
+}
+
+@font-face{
+    font-family:"NanumSquare";
+    font-weight: 400;
+    src:url('/assets/font/NanumSquareR.eot') format('embedded-opentype'),
+        url('/assets/font/NanumSquareR.ttf') format('truetype'),
+        url('/assets/font/NanumSquareR.woff') format('woff');
+}
+
+
+@font-face{
+    font-family:"NanumSquare";
+    font-weight: 600;
+    src:url('/assets/font/NanumSquareB.eot') format('embedded-opentype'),
+        url('/assets/font/NanumSquareB.woff') format('woff'),
+        url('/assets/font/NanumSquareB.ttf') format('truetype');
+}
+
+@font-face{
+    font-family:"NanumSquare";
+    font-weight: bold;
+    src:url('/assets/font/NanumSquareEB.eot') format('embedded-opentype'),
+        url('/assets/font/NanumSquareEB.woff') format('woff'),
+        url('/assets/font/NanumSquareEB.ttf') format('truetype');
+}
+
+
+@font-face{
+    font-family:'Raleway';
+    src:url('/assets/font/Raleway-ExtraBold.ttf') format('truetype'),
+        url('/assets/font/Raleway-Regular.ttf') format('truetype');
+}
+
+@font-face{
+    font-family:'malgungothic';
+    src:url('/assets/font/MalgunGothic.eot') format('embedded-opentype');
+}
+
+@font-face{
+    font-family:'notosans';
+    src:url('/assets/font/NotoSansCJKkr-Bold.otf') format('opentype');
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, * {
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+	font-size: 100%;
+	border: 0;
+	font-family: 'NanumSquare', sans-serif;
+	box-sizing: border-box;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {line-height: 1; height: 100vh;}
+img {
+	max-width: 100%;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+hr {
+	display: block;
+	margin: 16px 0;
+	padding: 0;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+}
+input, select {
+	vertical-align: middle;
+}
+button{cursor: pointer;background:none;}
+.clear:after{content: ""; display: block; clear: both;}
+a, a:hover, a:active, a:visited, a{color: inherit;text-decoration: none;}
+
+.bold{font-weight: bold !important;}

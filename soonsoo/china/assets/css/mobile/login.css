@@ -1,0 +1,32 @@
+
+input[type="text"]{-moz-appearance:none; -webkit-appearance:none; appearance:none; -webkit-border-radius: 0; outline:none; color:#444}
+
+
+/****** POST_POPUP_1 ******/
+
+
+.post_popOut{width:100%; padding-top:15px}
+.post_pop{/*max-width:290px;*/ width:100%; display:inline-block; margin:0; vertical-align:top; position:relative;}
+.login_cancel{display:inline-block; float:right; margin-right:-17px; margin-top:-18px}
+.post_p_wrap{max-width:290px; width:100%; height:auto; border:4px solid #ff8d38; background:#fff; box-sizing:border-box; /*margin:15px auto 0*/margin:0 auto}
+.post_tit{text-align:center; padding:15px 0 25px 0; clear:both}
+.post_desc{max-width:460px; width:94%; margin:0 auto; padding-top:15px; /*border-bottom:1px solid #666666;*/ border-top:2px solid #666666}
+.post_desc input[type="text"]{width:100%; font-size:14px; padding:8px 15px; display:inline-block}
+.sear_box{width:100%; text-align:center}
+.post_s{width:70px; height:34px; background-color:#0090ff; color:#fff; font-size:13px; font-weight:700; margin-top:8px; border-radius:2px}
+.post_desc .post_ex{font-size:13px; color:#888888; padding:10px 0 20px 0; line-height:1.5}
+.post_desc .post_ex span{padding-left:62px}
+.post_list{width:100%; height:225px; border:1px solid #0090ff; overflow-y:scroll}
+.post_list .p_address{ padding:10px; font-size:13px; color:#888888; line-height:1.6}
+.post_list .post_l_t{width:96%; margin:0 auto}
+.post_list .post_l_t td{border-bottom:1px solid #ccc}
+.post_list .post_l_t tr{padding-left:20px}
+.post_list .post_l_t a{background:#bfbfbf; color:#fff; border-radius:15px; padding:7px 15px; font-size:13px}
+
+.d_p_add{padding:20px 0 5px 0}
+.d_p_add input[type="text"]{width:96%; padding-right:0; margin-bottom:10px}
+.p_comp {text-align:center; padding-top:15px; padding-bottom:15px }
+.p_comp button{width:70px; height:34px; color:#fff; font-size:14px; letter-spacing:3px; font-weight:700; background-color:#ff5a00; border-radius:2px}
+
+
+

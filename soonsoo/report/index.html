@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/jquery.bxslider.min.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/jquery.bxslider.min.css">
+  <script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+  <script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    $(function(){
+      //단어 슬라이더
+      $('.bxslider').bxSlider({
+        controls: false, infiniteLoop: false
+      });
+    });
+
+    function change_date(date,mode){
+
+        var year = date.substr(0,4);
+        var month = date.substr(4,2);
+        var day = date.substr(6,2);
+
+
+
+        var queDate = new Date(year,month-1,day);
+
+        if(mode =="prev"){
+            queDate.setDate(queDate.getDate()-1);
+        }else{
+            queDate.setDate(queDate.getDate()+1);
+        }
+
+        var urlDate = queDate.getFullYear()+""+("0"+(queDate.getMonth()+1)).slice(-2)+""+("0"+queDate.getDate()).slice(-2);
+
+       if(mode == "prev" || "<?=$date_next?>" != "disabled"){
+         location.href= "popup_report_daily?date="+urlDate+"&study_info_idx=<?=$study_info_idx?>&agent=<?=$agent?>";
+       }
+    }
+
+
+    function icecream_event(spanbox){
+
+
+          spanbox.css("animation","none");
+          spanbox.parents().parents().parents().css({
+            'position':'relative'
+          });
+          var p_top = spanbox.parent().parent().parent().position().top;
+          // var p_left = $(this).parent().parent().parent().position().left;
+          $('.pop_icecream')
+          .fadeIn(500)
+          .delay(1000)
+          .fadeOut(500)
+          .css({
+            "top": p_top,
+            "left": "180px"
+          });
+
+
+          // +3 스타아이스크림 획득 후 COMPLETE 표시
+          var shadow = spanbox.parent();
+          setTimeout(function(){
+            shadow.fadeIn(1000, function(){
+              shadow.addClass('complete');
+            });
+          },2000);
+
+    }
+
+      function page_close(){
+          window.close();
+
+      }
+
+      function sendToAIR()
+      {
+          AirBridge.message( "pageClose" );
+      }
+  </script>
+
+  <div id="rModal">
+    <div class="wrap daily">
+        <div class="header">
+          <h1>Daily Result</h1>
+          <button type="button" name="button" class="close" onclick="sendToAIR()"></button>
+        </div>
+        <div class="cont">
+          <div class="top">
+            <div class="date clear">
+              <button type="button" name="button" class="prev"></button>
+              <span>2022-05-29</span>
+              <button type="button" name="button" class="next"></button>
+            </div>
+            <div class="name">
+              <span>김혜미</span>
+            </div>
+          </div>
+          <div class="scroll">
+            <div class="summary">
+              <ul class="clear">
+                <li>
+                  <h5>UNIT</h5>
+                  <div class="item clear">
+                    <img src="images/ico_unit.png" alt="unit">
+                    <div class="txt">
+                      <span class="num">20</span>
+                      <span class="unit">개</span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <h5>STAR ICECREAM</h5>
+                  <div class="item clear">
+                    <img src="images/ico_starice.png" alt="starice">
+                    <div class="txt">
+                      <span class="num">512</span>
+                      <span class="unit">개</span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <h5>WORD</h5>
+                  <div class="item clear">
+                    <img src="images/ico_word.png" alt="word">
+                    <div class="txt">
+                      <span class="num">35</span>
+                      <span class="unit">개</span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <h5>AVERAGE SCORE</h5>
+                  <div class="item clear">
+                    <img src="images/ico_score.png" alt="score">
+                    <div class="txt">
+                      <span class="num">99</span>
+                      <span class="unit">점</span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="list">
+              <div class="title clear">
+                <h3>오늘의 학습내역</h3>
+                <h5>스타 아이스크림을 달성하면 아이스크림 30개 추가 획득!</h5>
+              </div>
+              <div class="head">
+                <ul class="clear">
+                  <li>UNIT</li>
+                  <li>ICECREAM</li>
+                  <li>WORDS</li>
+                </ul>
+              </div>
+              <div class="body">
+                <div class="pop_icecream"></div>
+                <ul>
+                  <li class="clear">
+                    <div class="unit">
+                      <img src="images/Alphabet_1.png" alt="학습한 단어">
+                      <p>A a</p>
+                    </div>
+                    <div class="icecream">
+                      <!-- (D) box에 complete 클래스 추가하면 complete된 상태가 됨 -->
+                      <div class="box clear">
+                        <div class="comp">COMPLETE</div>
+                        <!-- (D) corn : on이면 불 켜진 상태, disabled1/disabled2/disabled3 으로 모양이 다 달라서 클래스 나눠놨어요. star는 스타 아이스크림 3개 추가 획득할 수 있는 왕아이스크림 -->
+                        <span class="corn on"></span>
+                        <span class="corn on"></span>
+                        <span class="corn disabled3"></span>
+                        <input type="hidden" id="idx">
+                     </div>
+                    </div>
+                  <div class="words bxslider">
+                    <div class="word">
+                      <div class="row">
+                        <span>animal</span>
+                        <span>auto</span>
+                        <span>ant</span>
+                        <span>a/an</span>
+                        <span>and</span>
+                      </div>
+                      <div class="row">
+                        <span>angel</span>
+                        <span>all</span>
+                        <span>autoplay</span>
+                        <span>apple</span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="clear">
+                    <div class="unit">
+                      <img src="images/Alphabet_18.png" alt="학습한 단어">
+                      <p>G g ~ L l</p>
+                    </div>
+                    <div class="icecream">
+                      <div class="box clear complete">
+                        <div class="comp">COMPLETE</div>
+                        <span class="corn on"></span>
+                        <span class="corn on"></span>
+                        <span class="corn star"></span>
+                        <input type="hidden" id="idx">
+                     </div>
+                    </div>
+                  <div class="words bxslider">
+                    <div class="word">
+                      <div class="row">
+                        <span>good</span>
+                        <span>graph</span>
+                        <span>golf</span>
+                        <span>gold</span>
+                        <span>hello</span>
+                      </div>
+                      <div class="row">
+                        <span>happy</span>
+                        <span>home</span>
+                        <span>house</span>
+                        <span>input</span>
+                      </div>
+                    </div>
+                    <div class="word">
+                      <div class="row">
+                        <span>jenny</span>
+                        <span>july</span>
+                        <span>kids</span>
+                        <span>kind</span>
+                        <span>lemon</span>
+                      </div>
+                      <div class="row">
+                        <span>line</span>
+                        <span>like</span>
+                        <span>ling</span>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="clear">
+                    <div class="unit">
+                      <img src="images/Phonics Plus_15.png" alt="학습한 단어">
+                      <p>L l, R r</p>
+                    </div>
+                    <div class="icecream">
+                      <div class="box clear">
+                        <div class="comp">COMPLETE</div>
+                        <span class="corn disabled1"></span>
+                        <span class="corn disabled2"></span>
+                        <span class="corn disabled3"></span>
+                        <input type="hidden" id="idx">
+                     </div>
+                    </div>
+                  <div class="words bxslider">
+                    <div class="word">
+                      <div class="row">
+                        <span>left</span>
+                        <span>right</span>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</body>
+</html>

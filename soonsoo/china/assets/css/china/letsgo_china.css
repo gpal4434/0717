@@ -1,0 +1,337 @@
+@charset "UTF-8";
+
+/* 체험신청 */
+#experience #register_main {width:100%;min-width:1200px;height:638px;background-image: url(/images/lets_china/experience/bg.png);background-repeat: no-repeat;margin-bottom:160px;}
+#experience .register_m {width: 1200px;height:638px;margin:0 auto;position: relative;}
+#experience .register_img {position:absolute;top:200px;left:35px;}
+#experience .register_txt {position:absolute;top:295px;left:242px;}
+#experience .register_txt1 {font-size:48px;font-weight:bold;color:#fff;margin-left:25px;}
+#experience .register_txt2 {font-size:122px;font-weight:bold;color:#fff;letter-spacing:-15px;}
+#experience .register_one {z-index: 10;position:absolute;bottom:50px;line-height:60px;text-align:center;left:266px;width:330px;height:60px;font-size:22px;font-weight:600;}
+#experience .register_one a:before{content: "";position: absolute;top: 18;left: 50px;width: 39px;height: 14px;background: url(/images/lets_china/experience/right.png)center no-repeat;}
+#experience .register_one > a{display: block;width:100%;height:100%;border:1px solid #fff;color:#fff;padding-left: 70px;border-radius: 5em;}
+#experience .register_one:hover > a{background:#ffea00;color:#d8542b;border:1px solid #ffea00;}
+#experience .register_one:hover a:before{background: url(/images/lets_china/experience/right_on.png)center no-repeat;}
+#experience .register_bao {width:723px;height:560px;overflow:hidden;position:absolute;right:0;bottom:0;}
+#experience .register_section {width: 1200px;height:800px;margin:0 auto;}
+#experience .re_sctxt {text-align:center;font-size:50px;font-weight:bold;}
+#experience .re_sctxt1 {color:#f15353;}
+#experience .re_sctxt2 {font-size:22px;text-align:center;margin-top:50px;}
+#experience #re_section2 {width:100%;min-width:1200px;height:256px;background-image: url(/images/lets_china/experience/bg2.png);background-repeat: no-repeat;margin-bottom:160px;}
+#experience .section_2 {width: 1200px;height:256px;position:relative;margin:0 auto;}
+#experience .section_2 .txt1 {position:absolute;top:77px;color:#fff;font-weight:bold;font-size:48px;}
+#experience .section_2 > .txt1:nth-child(1){left:80px;}
+#experience .section_2 > .txt1:nth-child(2){right:80px;}
+#experience .ak_img {position: absolute;top:40px;left:50%;margin-left: -133px;}
+#experience .section_2 .txt2 {position:absolute;color:#fff;font-size:22px;bottom:40px;width: 100%;text-align: center;}
+#experience .re_solution {width: 1200px;height:790px;margin:0 auto;}
+#experience .solution {font-weight:bold;font-size:50px;text-align:center;}
+#experience .solution2 {color:#f15353;}
+#experience .solution3 {margin-top:50px;text-align:center;font-size:22px;}
+#experience .solution4 {margin-top:50px;}
+#experience #sugang_china {width:100%;min-width:1200px;height:1285px;background-image: url(/images/lets_china/experience/bg3.png);background-repeat: no-repeat;}
+#experience .sugang_chi {width: 1200px;height:100%;margin:0 auto;position:relative;}
+#experience .sugang_chit {padding-top:170px;text-align:center;font-weight:bold;font-size:50px;color:#fff;}
+#experience .sugang_chit2 {color:#f15353;}
+#experience .sugang_chit3 {font-size:22px;color:#fff;text-align:center;margin-top:50px;}
+#experience .sugang_chi .z10{position: relative;z-index: 10;}
+#experience .sub_sugang {position:absolute;bottom:150px;left:200px;z-index: 1;width: 785px;height: 784px;}
+#experience .sub_sugang .rotate_bg{background: url(/images/lets_china/experience/count_one.png);width: 785px;height: 784px;}
+#experience .sub_sugang2 {position:absolute;top:300px;color:#ffd83f;top:500px;left:50%;margin-left: -91px;font-weight:bold;font-size:50px;}
+#experience .sub_sugang3 {position:absolute;color:#fff;top:560px;left:320px;font-weight:bold;font-size:60px;}
+#experience .sub_sugang4 {font-size:132px;}
+#experience .sub_sugang5 {font-size:60px;}
+#experience .sub_sugang6 {width:335px;background:#ffd83f;height:50px;position:absolute;top:720px;border-radius:5em;text-align:center;line-height:45px;left:420px;}
+#experience .sub_sugang7, .sub_sugang9 {font-weight:600;font-size:23px;color:#222;}
+#experience .sub_sugang8 {font-size:35px;font-weight:bold;}
+#experience .sub_sugang10 {position:absolute;top:380px;left:670px;}
+#experience .sub_sugang11 {position:absolute;top:800px;left:50%;transform:translateX(-50%);}
+#experience .rotate{position: absolute;top: 0;left: 0;width: 100%;height: 100%;background: #000 url(/images/lets_china/experience/rotate.png)center no-repeat;animation: rotate  4s 1s infinite linear normal;transform:none;z-index: -1;border-radius: 50%;}
+#experience .count_num{position: absolute;bottom: 105px;left:50%;transform:translateX(-50%);}
+#experience .count_num span{display: block;font-size: 140px;font-weight: bold;float: left;}
+#experience .count_num span.blue{color: #00ae9c;}
+#experience .count_num span.orange{color: #ee8c19;margin-left: 70px;}
+#experience #sugang_s {width:100%;min-width:1200px;margin-top:130px;}
+#experience .sugang_ss {height:100px;margin:0 auto;text-align:center;line-height: 2;}
+#experience .sugang_ss1 {color:#222;font-size:42px;}
+#experience .sugang_ss2 {color:#f15353;font-weight:bold;}
+#experience .sugang_ss3 {font-weight:bold;}
+#experience .sin_txt {width: 1200px;border-bottom:1px solid #dddddd;margin:0 auto;padding: 35px;}
+#experience .sin_txt .agree_box{position: relative;}
+#experience .sin_txt .agree_box input{position: absolute;top: 0;left: 0;width: 0;height: 0;}
+#experience .sin_txt .agree_box label{position: relative;margin: 58px 0 25px 0;font-size: 23px;font-weight: bold;display: block;padding-left: 30px;cursor: pointer;}
+#experience .sin_txt .agree_box label:before{content: "";position: absolute;top: 0;left: 0;width: 22px;height: 21px;background:url(/images/lets_china/experience/check_off.png)center no-repeat;}
+#experience .sin_txt .agree_box input:checked + label:before{background:url(/images/lets_china/experience/check_on.png)center no-repeat;}
+#experience .sin_txt5 {margin-top:55px;height:200px;border-bottom: 2px solid #dddddd;position:relative;margin:0 auto;}
+#experience .sin_txt10 {margin-top:5px;float:left;margin-right:15px;}
+#experience .agree_items{width: 1200px;margin: 0 auto;padding: 35px;border-bottom: 1px solid #ddd;}
+#experience .agree_items > ul{}
+#experience .agree_items > ul > li + li{margin-top: 35px;}
+#experience .agree_items .chk{position: relative;float: left;}
+#experience .agree_items .chk input{width: 0;height: 0;position: absolute;top: 0;left: 0;
+}
+#experience .agree_items .chk label{position: relative;font-size: 18px;font-weight: bold;padding-left: 30px;}
+#experience .agree_items .chk label:before{content: "";position: absolute;top: 0;left: 0;width: 22px;height: 21px;background: url(/images/lets_china/experience/check_off.png)center no-repeat;}
+#experience .agree_items .chk label:after{content: "필수";border: 1px solid #ff6464;border-radius: 5rem;padding: 0.1rem 0.4rem;margin-left: 0.3rem;font-size: 0.8rem;font-weight: 600;color: #ff6464;}
+#experience .agree_items .chk label.option:after{content: "선택";border:1px solid #393939;color:#393939;}
+#experience .agree_items .chk input:checked + label:before{background: url(/images/lets_china/experience/check_on.png)center no-repeat;}
+#experience .agree_items .link{float: right;}
+#experience .agree_items .link a{text-decoration: underline;color: #999;}
+#experience .agree_items .link:hover a{text-decoration: underline;color: #222;}
+#experience .agree_items .agree_content{padding: 25px 35px;border: 1px solid #b1b1b1;margin-top: 20px;}
+#experience .agree_items .agree_content ul{}
+#experience .agree_items li:last-child .chk{float:none;}
+#experience .agree_items .agree_content li{-ms-transform:skew(-0.1deg);-webkit-transform:skew(-0.1deg);transform:skew(-0.1deg);}
+#experience .agree_items .agree_content li + li{margin-top: 20px;}
+#experience .sin_choice {width:100%;min-width:1200px;margin:55px auto;text-align:center;cursor:pointer;}
+#experience .agree_txt{margin: 1rem 0 0;}
+#experience .agree_txt ul{padding: 0 1.5rem;}
+#experience .agree_txt li{list-style: disc;
+font-size: 1rem;line-height: 1.5;color: #555;}
+#experience .agree_txt li + li{margin-top: 0.5rem;}
+@keyframes rotate {
+  0%{transform:rotate(0deg);}
+  100%{transform:rotate(360deg);}
+  }
+/* //체험신청 */
+
+/* how */
+#how #curi_main {width:100%;min-width:1200px;height:640px;background:url(/images/lets_china/curi/how/ma_bg.png);background-repeat: no-repeat;overflow: hidden;}
+#how .curl_ma {width:1200px;height:100%;margin:0 auto;position:relative;}
+#how .how_pung {position:absolute;left:0;top:175px;}
+#how .h_bao {height:559px;position:absolute;bottom:0;right:-90px;}
+#how .how_mandu {height:615px;overflow:hidden;position:absolute;top:500px;left:450px;}
+#how .how_mud {height:615px;overflow:hidden;position:absolute;top:0;left:100px;}
+#how .curl_txt {position:absolute;top:290px;left:15px;font-family:"notosans", "sans-serif";font-weight:bold;}
+#how .curl_txt1 {font-size:90px;color:#fffc00;letter-spacing: -7px;font-family: "notosans", "sans-serif";}
+#how .curl_txt2 {color:#fff;}
+#how .curl_txt3 {font-weight:normal;font-size:25px;margin-top:30px;line-height:40px;color:#fff;}
+#how #curu_two {width: 100%;min-width:1200px;margin:0 auto;text-align:center;color:#222;}
+#how .hsk {margin-top:150px;font-size:50px;font-weight:normal;}
+#how .hsk1 {font-weight: 800;}
+#how .hsk2 {color:#f15353;font-weight:700;}
+#how .hsk3 {margin-top:50px;font-size:22px;line-height:35px;letter-spacing:0.5px;font-weight:normal;}
+#how #curu_grap {width: 100%;min-width:1200px;height: 823px;margin:0 auto;position:relative;background:url(/images/lets_china/curi/how/how_cu.jpg)center no-repeat}
+#how #curu_grap > img {margin-top:-10px;}
+#how .curu_coco {margin-top:25px;margin-left:-20px;}
+#how .curu_rig {width:58%;position:absolute;top:70px;left:300px;}
+#how .curu_master {position:absolute;right:55px;top:-40px;}
+#how #nemo {margin:0 auto;font-weight:700;position:relative;}
+#how .nemo_img {margin-left:5px;}
+#how .nemo_t1, .nemo_t2, .nemo_t3, .nemo_t4 {position:absolute;color:#fff;font-size:24px;left:0;top:30px;}
+#how .nemo_t1 {top:30px;left:80px;}
+#how .nemo_t2 {left:380px;}
+#how .nemo_t3 {left:660px;}
+#how .nemo_t4 {left:950px;}
+#how #sub_hsk {width:100%;min-width:1200px;height:965px;background-image: url(/images/lets_china/curi/how/sub_bg.png);background-repeat: no-repeat;margin-top:160px;}
+#how .hsk_info {position:relative;margin:0 auto;padding: 170px 0 50px 0;}
+#how .hsk_t {font-size:50px;text-align: center;}
+#how .hs2 {color:#f15353;}
+#how .hsk_t2 {line-height:45px;margin-top:45px;font-size:22px;text-align:center;}
+#how .pungga {width:1200px;height:448px;margin:0 auto;position:relative;}
+#how .pungga_stx,
+#how .pungga_stx2{position:absolute;top:43%;z-index:4;font-size:35px;font-weight:bold;color:#fff;line-height:56px;width: 100%;text-align:center;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);}
+#how .bye {position:absolute;top:0px;z-index:1;width:440px;height:448px;background:url(/images/lets_china/curi/how/bye.png);}
+#how .upda {position:absolute;top:0px;right:0;z-index:2;width: 440px;height: 448px;background: url(/images/lets_china/curi/how/upda.png);}
+#how .gizun {position:absolute;top:30px;left:280px;width:605px;height:305px;border:10px solid #ffd83f;border-radius: 10em;}
+#how .gizun_tx {text-align:center;line-height:305px;font-size:46px;font-weight:700;}
+#how .gizun_bar {position:absolute;top:240px;left:540px;}
+#how #sangzang {width:100%;min-width:1200px;margin-top:-20px;height:1043px;z-index:-1;background: url(/images/lets_china/curi/how/sub2_bg.png)no-repeat;}
+#how .sang {width: 1200px;height:970px;margin:0 auto;font-weight:700;}
+#how .sang_txt {padding-top:175px;font-size:50px;font-weight:bold;color:#fff;text-align:center;}
+#how .sang_txt2 {color:#f15353;}
+#how .sang_txt3 {color:#fff;text-align:center;margin-top:50px;line-height:40px;font-size:22px;font-weight:normal;}
+#how .sang_img {margin-top:50px;}
+#how #fura {width:100%;min-width:1200px;background: url(/images/lets_china/curi/how/bottom_bg.png)center no-repeat;}
+#how .fura_in {width: 1200px;height:640px;position:relative;margin:0 auto;}
+#how .pu_img {position:absolute;top:50px;left:250px;}
+#how .pu_img2 {position:absolute;top:350px;left:-200px;}
+#how .pu_img3 {height:87px;position:absolute;right:-40px;top:550px;z-index:1;overflow:hidden;}
+#how .pu_img4 {height:601px;overflow:hidden;position:absolute;bottom:0;left:0;}
+#how .han1, .han2, .han3 {position:absolute;top:0;right:0;font-size:130px;color:#fff;font-family:"notosans", "sans-serif";font-weight:bold;}
+#how .han1 {right:374px;top:133px;}
+#how .han2 {right:220px;top:175px;}
+#how .han3 {right:80px;top:157px;}
+#how .sound {float: left;}
+#how .funny {float: left;font-size:25px;color:#fff;font-weight:normal;line-height: 2.5;margin-left: 10px;}
+#how .funny_1 {position:absolute;right:105px;top:425px;font-size:22px;color:#fff;text-align:center;line-height:40px;}
+#how .sound button {width: 54px;height: 54px;background: url(/images/lets_china/curi/why/sound.png)center no-repeat;border: 0;}
+#how .sound button:hover, #how .sound button:active, #how .sound.on button {background: url(/images/lets_china/curi/why/sound_on.png)center no-repeat;}
+/* //how */
+
+/* what */
+#video_detail.what .play{width: 800px;height: 500px;position: absolute;top: 50%;left: 50%;margin-left: -400px;margin-top: -250px;background: #fff;}
+#what #what_main {overflow:hidden;width:100%;min-width:1200px;height:640px;background:url(/images/lets_china/curi/what/m_bg.png);background-repeat: no-rep#experience .register_meat;}
+#what .what_ma {width: 1200px;height:640px;margin:0 auto;position:relative;}
+#what .what_pung {position:absolute;top:175px;}
+#what .what_teddy {position:absolute;top:-15px;right:-280px;height:655px;width:1000px;}
+#what .what_wolud {position:absolute;top:150px;left:480px;}
+#what .what_txt {position:absolute;top:290px;left:15px;font-family:"notosans", "sans-serif";}
+#what .what_txt1 {font-size:90px;color:#fffc00;letter-spacing:-5px;font-family: "notosans", "sans-serif";font-weight:bold;}
+#what .what_txt2 {color:#fff;}
+#what .what_txt3 {font-size:25px;margin-top:15px;line-height:40px;color:#fff;}
+#what #what_comu {width:100%;min-width:1200px;margin:0 auto;color:#323232;text-align:center;margin-top:155px;margin-bottom:160px;}
+#what .comu_txt {font-size:50px;font-weight:700;}
+#what .comu_txt2 {color:#f15353;}
+#what .comu_txt3 {font-size:22px;margin-top:55px;line-height:35px;}
+#what #what_qusiton {width:100%;min-width:1200px;height:1427px;background:#df2f2f2;}
+#what .qusi_txt {width: 1200px;height:100%;margin:0 auto;color:#222;text-align:center;font-size:50px;position:relative;font-weight:700;padding-top:146px;}
+#what .qus_subt2 {color:#f15353;}
+#what .qu_img {position:absolute;top:-120px;left:500px;}
+#what .qus_sub_t {margin-left:-35px;}
+#what .qus_subt2 {margin-left:100px;}
+#what .qu_img3 {position:absolute;top:238px;left:80px;}
+#what .qu_imgtxt {position:absolute;font-size:50px;font-weight:700;top:782px;left:190px;color:#f15353;}
+#what .qu_imgtxt2 {color:#222222;}
+#what .qu_img4 {position:absolute;top:830px;left:80px;}
+#what #what_two {min-width:1200px;margin:0 auto;text-align:center;color:#222;}
+#what .w_hsk {margin-top:158px;font-size:50px;font-weight:700;}
+#what .w_hk2 {color:#f15353;}
+#what .w_hsk3 {margin-top:50px;font-size:22px;line-height:35px;}
+#what #w_one {width:1200px;height:756px;margin:0 auto;position:relative;}
+#what .w_taon2 {position:absolute;top:50px;left:-10px;z-index:-1;}
+#what #wh_slide {width:100%;min-width:1200px;height:2577px;background:url(/images/lets_china/curi/what/sl_bg.png);background-repeat: no-repeat;}
+#what .inner{width: 1200px;height: 795px;margin: 0 auto;position: relative;}
+#what .wh_slide{width:100%;position: absolute;top: 270px;}
+.bx-wrapper .bx-pager.bx-default-pager a{border-radius: 50%;}
+#what .slide_box {position: absolute;width: 615px;height: 344px;top: 12px;left: 32px;}
+#what .bxslide_box{z-index: 10;position: absolute;top: 0;left: 20px;}
+#what .bx-wrapper .bx-pager{z-index: 20;}
+#what .bx-wrapper .bx-controls{width: 100%;height: 40px;}
+#what .bx-wrapper{border:0;background:none;-moz-box-shadow:none;-webkit-box-shadow:none;-ms-box-shadow:none;box-shadow:none;}
+#what .bx-wrapper .bx-pager.bx-default-pager a{background: #4c4f6b; width: 12px;height: 12px;margin: 10px;border-radius: 10px;}
+#what .bx-wrapper .bx-pager.bx-default-pager a.active,
+#what .bx-wrapper .bx-pager.bx-default-pager a:focus,
+#what .bx-wrapper .bx-pager.bx-default-pager a:hover{background: #ffcc44;}
+#what .wh_slide_img {position:absolute;z-index:11;top:270px;left:15px;}
+#what .what_curi {width:155px;position:absolute;background:#ffd83f;border-radius: 10em;height:40px;color:#26283c;font-size:18px;top:766px;left:29px;font-weight:bold;text-align:center;line-height:40px;}
+#what .what_curi2 {width:340px;height:75px;font-weight:700;position:absolute;border:1px solid #fff;border-radius: 10em;font-size:18px;top:560px;right:92px;font-weight:700;text-align:center;line-height:75px;}
+#what .what_curi2:hover {background:#ffd83f;border:1px solid #ffd83f;}
+#what .what_curi2:hover > a {color:#222222;}
+#what .what_curi2 > a {display: block;width: 100%;height: 100%;color:#fff;font-size:28px;}
+#what .what_curi_detail {width:870px;height:57px;position:absolute;background:#fff;border-radius: 10em;color:#222;top:760px;left:215px;font-weight:600;text-align:center;line-height:58px;-ms-transform:skew(-0.1deg);-webkit-transform:skew(-0.1deg);transform:skew(-0.1deg);}
+#what .what_curione {position: absolute;top: 165px;left: 470px;}
+#what .what_curione_txt {position:absolute;top:300px;line-height:70px;left:728px;font-size:50px;color:#fff;}
+#what .wcu_t {font-weight:700;}
+#what .what_curione_txt2 {position:absolute;top:470px;line-height:30px;left:728px;font-size:18px;color:#fff;}
+#what .slide_box2 {position:absolute;z-index:11;top:270px}
+#what .wh_slide_img2 {position:absolute;z-index:11;top:270px;left:15px;}
+#what .what_curi3 {width:155px;position:absolute;border:1px solid #ffd83f;border-radius: 10em;height:40px;color:#ffd83f;font-size:18px;top:690px;left:45px;font-weight:700;text-align:center;line-height:40px;}
+#what .what_curi3:hover {background:#ffd83f;border:1px solid #ffd83f;}
+#what .what_curi_hover2 {width:925px;height:55px;position:absolute;  background:#fff;border-radius: 10em;color:#222;font-size:18px;top:683px;left:215px;font-weight:700;text-align:center;line-height:55px;}
+#what .what_curi3:hover {background:#ffd83f;color:#26283c;}
+#what .what_curitwo {position:absolute;top:170px;z-index:10;left:480px;}
+#what .what_curitwo_txt {position:absolute;top:300px;line-height:70px;right:60px;font-size:50px; color:#fff;}
+#what .wcu_t2 {font-weight:700;}
+#what .what_curione_txt3 {position:absolute;top:470px;line-height:30px;right:150px;font-size:18px;color:#fff;}
+#what .what_curione_txt4 {position:absolute;top:580px;line-height:30px;left:728px;font-size:18px;color:#fff;text-decoration: underline;}
+#what .slide_box3 {position:absolute;z-index:11;top:270px;}
+#what .wh_slide_img3 {position:absolute;z-index:11;top:270px;left:15px;}
+#what .what_curi_la {width:155px;position:absolute;border:1px solid #ffd83f;border-radius: 10em;height:40px;color:#ffd83f;font-size:18px;top:690px;left:45px;font-weight:bold;text-align:center;line-height:40px;}
+#what .what_curi_hover3 {width:960px;height:55px;position:absolute;background:#fff;border-radius: 10em;color:#222;font-size:18px;top:683px;left:215px;font-weight:700;text-align:center;line-height:55px;}
+#what .what_curi4 {position:absolute;top:170px;z-index:10;left:480px;}
+#what .what_curitwo_3 {position:absolute;top:300px;line-height:70px;right:185px;font-size:50px;color:#fff;}
+#what .wcu_t5 {font-weight:bold;}
+#what .what_curione_txt5 {position:absolute;top:470px;line-height:30px;right:175px;font-size:18px;color:#fff;}
+#what .what_curione_txt10 {position:absolute;top:570px;line-height:30px;right:105px;text-decoration:underline;font-size:18px;color:#fff;}
+#what #nulza {width:100%;min-width:1200px;height:640px;background:url(/images/lets_china/curi/what/ma_bg.png)center no-repeat;}
+#what .nulza_txt {position:relative;width: 1200px;height:640px;margin:0 auto;}
+#what #nulza .nulza_txt .ben{position: absolute;bottom: 0;left: 0;}
+#what .nulza_img {position:absolute;top:60px;left:150px;opacity: 0.3;}
+#what .nulza_img2 {position:absolute;top:350px;left:-200px;opacity: 0.3;}
+#what .nulza_img3 {position:absolute;bottom:-5px;right:0;opacity:0.3;}
+#what .nul_han1, .nul_han2, .nul_han3 {font-family:"notosans", "sans-serif";font-weight:bold;color:#fff;}
+#what .nul_han1 {font-size:130px;position:absolute;top:145px;right:300px;}
+#what .nul_han2 {font-size:133px;position:absolute;top:185px;right:170px;}
+#what .nul_han3 {font-size:114px;position:absolute;top:150px;right:70px;}
+#what .nul_han3 {font-size:114px;position:absolute;top:150px;right:70px;}
+#what .sound {float: left;cursor:pointer;}
+#what .nulza_txt3 {float: left;color:#fff;font-size:25px;line-height: 2;margin-left: 10px;}
+#what .nulza_txt4 {position:absolute;right:100px;top:420px;line-height:35px;text-align:center;color:#fff;font-size:22px;}
+#what .sound button {width: 54px;height: 54px;background: url(/images/lets_china/curi/why/sound.png)center no-repeat;border: 0;}
+#what .sound button:hover, #what .sound button:active, #what .sound.on button {background: url(/images/lets_china/curi/why/sound_on.png)center no-repeat;}
+/* //what */
+
+/* why */
+#why{width:100%;}
+#why #why_main {width:100%;min-width:1200px;max-width:1920px;height:638px;background:url(/images/lets_china/curi/why/bg.png)no-repeat;}
+#why .why_ma {width: 1200px;height:100%;margin:0 auto;position:relative;}
+#why .why_pung {position:absolute;top:175px;}
+#why .why_coco {position:absolute;bottom:0;right:0;overflow:hidden;}
+#why .why_txt {position:absolute;top:290px;left:15px;font-weight:900;}
+#why .why_txt1 {font-size:90px;color:#fffc00;font-family:"notosans", "sans-serif";letter-spacing: -7px;}
+#why .why_txt2 {color:#fff;font-weight:bold;}
+#why .why_txt3 {font-weight:normal;font-size:25px;margin-top:15px;line-height:40px;color:#fff;}
+#why #why_two {margin:0 auto;margin-bottom:30px;text-align:center;color:#222;}
+#why #slide_box .bx-pager{display: none;}
+#why #slide_box{width: 1200px;height: 505px;margin: 0 auto;position: relative;}
+#why #slide_box .bx-wrapper img{width: 90%; height: 100%;max-width: none; margin: 0 auto;}
+#why #slide_box .bx-wrapper .bx-controls-direction a,
+#why #usa .bx-wrapper .bx-controls-direction a{z-index: 9980;width: 54px;height: 54px;margin-top: -29px;}
+#why #slide_box .bx-wrapper .bx-prev{left: 0;background: url(/images/lets_china/curi/why/slide_btn_left.png)center / cover no-repeat;}
+#why #slide_box .bx-wrapper .bx-prev:hover{background: url(/images/lets_china/curi/why/slide_btn_left_on.png)center / cover no-repeat;}
+#why #slide_box .bx-wrapper .bx-next{right:0;background: url(/images/lets_china/curi/why/slide_btn_right.png)center / cover no-repeat;}
+#why #slide_box .bx-wrapper .bx-next:hover{background: url(/images/lets_china/curi/why/slide_btn_right_on.png)center / cover no-repeat;}
+#why .slide_txt{width: 1200px;padding: 0 155px;margin: 0 auto;}
+#why .slide_txt p{padding: 34px 25px;border-radius: 60px;font-size: 28px;background: #ffd83f;text-align: center;}
+#why .slide_txt p .em{font-weight: bold;}
+#why .bx-wrapper{height: 100%;box-shadow: none; border:0;}
+#why .bx-viewport{height:100%;margin-bottom: 0;}
+#why .bx-loading{display: none;}
+#why .wy_hsk {margin-top:150px;font-size:50px;font-weight:normal;}
+#why .wy_hsk2 {color:#f15353;font-weight:bold;}
+#why .wy_hsk3 {color:#222;font-weight:bold;}
+#why .wy_hsk4 {margin-top:45px;text-align:center;line-height:40px;margin-left:-25px;font-size:22px;font-weight:normal;}
+#why .wh_sil_tx {position:absolute;top:0;left:220px;}
+#why .why_chi {width:100px;position:absolute;top:0;left:330px;}
+#why .why_chi2 {width:100px;position:absolute;top:0;left:670px;}
+#why #slide_button {position: absolute;top:230px;cursor:pointer;left:0;}
+#why #slide_button2 {position: absolute;top:230px;right:0;cursor:pointer;}
+#why #why_tw {width:100%;min-width:1200px;margin-top:150px;height:1090px;background:url(/images/lets_china/curi/why/why_bg3.png);background-repeat: no-repeat;color:#222;}
+#why .why_tsc {height:300px;font-size:48px;color:#222;margin:0 auto;}
+#why .wh_twt {font-weight:normal;text-align:center;font-size:50px;padding-top:200px;}
+#why .wh_stwy {color:#f15353;font-weight:bold;}
+#why .wh_stwy2 {font-weight:bold;}
+#why .why_tsc2 {font-weight:normal;margin:0 auto;font-size:22px;line-height:35px;text-align:center;}
+#why .why_stsc2 {font-weight:normal;}
+#why .why_one {position:relative;margin:0 auto;text-align:center;margin-top:80px;}
+#why #why_world {width: 100%;min-width:1200px;height:600px;margin:0 auto;text-align: center;}
+#why .wh_wortxt {margin-top:150px;margin-left:20px;font-size:50px;font-weight:normal;}
+#why .wh_wortxt2 {color:#f15353;font-weight:bold;}
+#why .wh_wortxt3 {font-weight:bold;}
+#why .wh_wortxt4 {text-align:center;font-weight:normal;font-size:22px;margin-top:50px;line-height:30px;}
+#why #usa {width:100%;min-width:1200px;height:640px;background-repeat: no-repeat;}
+#why #usa .bx-wrapper{height:100%;background:#212339}
+#why #usa .bx-wrapper img{height:100%;margin:0 auto}
+#why #usa .bx-viewport,
+#why #usa .bxslider2,
+#why #usa .bxslider2 li{width: 100% !important; height: 100%;}
+#why #usa .bx-controls{position: absolute;top: 0;left: 50%;width: 1200px;height: 640px;margin-left: -600px;}
+#why #usa .bx-controls-direction{position: absolute;top: 0;left: 0;width: 100%;height: 100%;}
+#why #usa .bx-wrapper .bx-prev{left: 0;background: url(/images/lets_china/curi/why/usa_left_btn.png)center / cover no-repeat;}
+#why #usa .bx-wrapper .bx-prev:hover{background: url(/images/lets_china/curi/why/usa_left_btn_on.png)center / cover no-repeat;}
+#why #usa .bx-wrapper .bx-next{right:0;background: url(/images/lets_china/curi/why/usa_right_btn.png)center / cover no-repeat;}
+#why #usa .bx-wrapper .bx-next:hover{background: url(/images/lets_china/curi/why/usa_right_btn_on.png)center / cover no-repeat;}
+#why #fura {width:100%;min-width:1200px;height:640px;background: url(/images/lets_china/curi/how/ma_bg.png)center no-repeat}
+#why .fura_in {width:1200px;height:640px;position:relative;margin:0 auto;}
+#why .pu_img {position:absolute;top:50px;opacity: 0.3;}
+#why .pu_img2 {position:absolute;top:350px;left:-200px;opacity: 0.3;}
+#why .pu_img3 {height:87px;position:absolute;right:0;top:550px;opacity: 0.3;overflow:hidden;}
+#why .pu_img4 {position:absolute;left:-90px;bottom:0;overflow:hidden;}
+#why .han1, #why .han2, #why .han3 {position:absolute;top:0;right:0;color:#fff;font-family:"notosans", "sans-serif";font-weight:900;}
+#why .han1 {right:374px;top:133px;font-size:171px;}
+#why .han2 {right:220px;top:175px;font-size:133px;}
+#why .han3 {right:80px;top:157px;font-size:114px;}
+#why #fura .sound_box,
+#how #fura .sound_box,
+#what #nulza .sound_box{position: absolute;top:340px;right:220px;}
+#why .sound {float: left;}
+#why .sound button{width: 54px;height: 54px;background:url(/images/lets_china/curi/why/sound.png)center no-repeat;border:0;}
+#why .sound button:hover,
+#why .sound button:active,
+#why .sound.on button{background:url(/images/lets_china/curi/why/sound_on.png)center no-repeat;}
+#why .sound.off button{background:url(/images/lets_china/curi/why/sound_off.png)center no-repeat;}
+#why .funny {float: left;font-size:25px;color:#fff;font-weight:normal;line-height: 2.5;margin-left: 10px;}
+#why .funny_1 {position:absolute;right:130px;top:425px;font-size:22px;color:#fff;text-align:center;font-weight:normal;line-height:40px;}
+#why .usa_world > img {width:550px;margin-top:78px;}
+/* //why */

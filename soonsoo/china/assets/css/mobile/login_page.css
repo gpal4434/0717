@@ -1,0 +1,42 @@
+
+.login_wrap{width:86%; margin:0 auto;}
+.login_start{padding:15px 0 20px; font-size:1.8em; font-weight:900}
+.login_start p{line-height:1.5}
+
+.login_logo{width:80%; margin:0 auto; text-align:center}
+.login_logo img{max-width:424px; width:100%}
+
+.login_form_wrap{margin-top:25px; padding-bottom:35px; border-bottom:2px solid #fc7f0a; text-align:center}
+.login_form_wrap .login_t_box{border:1px solid #dedede !important; width:264px; height:35px; margin-bottom:10px; padding-left:10px; display:block}
+.login_form_wrap .login_t_box::-webkit-input-placeholder { /* Chrome/Opera/Safari */ font-size:13px}
+.login_form_wrap .login_t_box::-moz-placeholder { /* Firefox 19+ */ font-size:13px}
+.login_form_wrap .login_t_box:-ms-input-placeholder { /* IE 10+ */ font-size:13px}
+.login_form_wrap .login_t_box:-moz-placeholder { /* Firefox 18- */ font-size:13px}
+.login_form_wrap .loginForm{display:inline-block}
+
+.agree_button{text-align:center}
+.agree_button .login_btn{width:276px; background:url(/images/mobile/btn/login_bg.png)no-repeat center; padding:10px 0; border-radius:3px; text-align:center; display:inline-block}
+.agree_button .login_btn span{color:#fff; padding-left:10px; font-weight:700}
+.agree_button ul{width:100%; padding:30px 0}
+.agree_button ul li{display:inline-block; width:130px}
+.agree_button ul li span{font-size:14px; color:#fff}
+.agree_button ul li .join_btn{width:100%; display:inline-block; background:#0090ff; padding:6px 0; border-radius:3px}
+.agree_button ul li .search_btn{width:100%; display:inline-block; background:#01ba99; padding:6px 0; border-radius:3px}
+
+/***** find_id *****/
+.search_info ul{width:100%; font-size:0; margin:30px 0; text-align:center}
+.search_info ul li{display:inline-block;}
+.search_form_wrap{border-bottom:none}
+.agree_button .search_btn{width:276px; background:#ff5a00; padding:10px 0; border-radius:3px; text-align:center; display:inline-block}
+.search_btn span{letter-spacing:2px; color:#fff}
+
+.info_outPop{width:90%; margin:0 auto}
+.info_outPop .info_inPop{width:97%; background:#fff; padding:20px 0; border:3px solid #ff8d38}
+.info_outPop .info_inPop .info_desc{text-align:center; width:94%; margin:0 auto; line-height:1.5}
+.info_outPop .info_inPop .info_desc .info_txt{color:#222222; font-size:15px; margin-bottom:15px}
+.info_outPop .info_inPop .info_desc .info_txt span{text-decoration:underline; color:#0090ff}
+.info_outPop .info_inPop .info_desc .id_info_txt{color:#222222; font-weight:900; font-size:20px; margin-bottom:15px}
+.info_outPop .info_inPop .info_desc .no_info_txt{color:#ff7800; font-weight:700; margin:15px auto 30px}
+.agree_button .info_find_btn{width:70px; background:#fd5500; padding:5px 0; text-align:center; display:inline-block; border-radius:5px}
+.agree_button .info_find_btn span{color:#fff; letter-spacing:2px}
+

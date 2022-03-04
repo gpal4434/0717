@@ -1,0 +1,167 @@
+@charset "UTF-8";
+
+#center #saup_main {width:100%;min-width:1200px;height:777px;background: url(/images/lets_china/licensee/bg.png)center / cover no-repeat;}
+#center .saup_txt {width:1200px;margin:0 auto;text-align:center;}
+#center .saup_t1 {padding-top:280px;font-size:63px;color:#fff;font-weight:bold;}
+#center .saup_t2 {font-size:24px;margin-top:25px;color:#fff;letter-spacing: -1.5px;}
+#center .saup_section1 {width:1200px;height:650px;margin:0 auto;margin-top:160px;position:relative;}
+#center .section_o {position:absolute;top:370px;}
+#center .section_oimg {position:absolute;right:0;top:0;}
+#center .section_ot {font-size:36px;font-weight:bold;color:#323232;line-height:40px;margin-left:95px;}
+#center .section_ot2 {margin-top:50px;font-size:24px;line-height:40px;margin-left:95px;
+color:#323232;}
+#center .saup_section1 {width:1200px;height:650px;margin:0 auto;margin-top:160px;position:relative;}
+#center .section_o {position:absolute;top:250px;left:0;}
+#center .saup_section2 {width:1200px;margin:0 auto;position:relative;}
+#center .saup_section1 .section_oimg img,
+#center .saup_section2 .section_oimg2 img,
+#center .saup_section3 .section_oimg3 img{border:1px solid #dfddd6;}
+#center .section_2 {position:absolute;top:280px;right:0;}
+#center .section_s {font-size:36px;font-weight:bold;color:#323232;line-height:40px;margin-left:95px;}
+#center .section_s1 {margin-top:50px;font-size:24px;line-height:40px;margin-left:95px;
+color:#323232;}
+#center .saup_section3 {width:1200px;margin:0 auto;height:550px;margin-top:190px;position:relative;}
+#center .section_3 {position:absolute;top:0;left:0;}
+#center .section_oimg4 {position:absolute;top:0;left:0;z-index:2;}
+#center .section_oimg3 {position:absolute;bottom:100px;right:0;z-index:3;}
+#center .section_s2 {position:absolute;top:140px;left:0;z-index:4;font-size:36px;
+color:#fff;line-height:40px;margin-left:95px;font-weight:bold;}
+#center .section_s3 {position:absolute;top:190px;left:0;z-index:5;margin-top:50px;font-size:24px;line-height:40px;margin-left:95px;color:#fff;}
+#saup_process {width:100%;min-width:1200px;height:670px;background:#3882ab;background-repeat: no-repeat;margin-top:160px;}
+#center .process_saup {width:1200px;text-align:center;color:#fff;font-size:40px;margin:0 auto;font-weight:bold;padding-top:120px;}
+#center .process_saup > img {margin-top:100px;}
+#center #saup_tel {width:100%;min-width:1200px;background:url(/images/lets_china/licensee/bg3.png)left center / cover no-repeat;height:780px;margin-bottom:56px;}
+#center .saup_telt {width:1200px;margin:0 auto;text-align:center;}
+#center .telt_1 {color:#323232;font-size:38px;padding-top:120px;font-weight:bold;}
+#center .telt_2 {margin-top:35px;font-size:22px;color:#323232;line-height:35px;}
+#center .telt_3 {width:390px;height:60px;margin:0 auto;border:1px solid #3e7796;color:#3e7796;border-radius: 5em;text-align:center;line-height:60px;font-weight:600;font-size:22px;margin-top:20px;}
+#center .agree_btn{width: 100%;min-width:1200px;text-align: center;}
+#center .process_agree {display: inline-block;height:37px;margin:0 auto;}
+#center .process_agree button {display: block;float:left;height:100%;padding: 10px 40px;font-size:18px;background:#ebebeb;text-align: center;}
+#center .process_agree button + button{margin-left: 20px;}
+#center .agree_check {margin: 15px auto 0;position: relative;}
+#center .agree_check label{position: relative;padding:3px 0 0 30px;color: #3e7796;cursor: pointer;}
+#center .agree_check label:before{content: "";position: absolute;top: 0;left: 0;width: 22px;height: 22px;background: url(/images/lets_china/licensee/chk_btn.png)center no-repeat;}
+#center .agree_check input{position: absolute;top: 0;left: 0;width: 0;height: 0;}
+#center .agree_check input:checked + label:before{background: url(/images/lets_china/licensee/chk_btn_on.png)center no-repeat;}
+#center .agree_bar {width:100%;border:1px solid #dbdbdb;margin:60px 0;}
+#center .info_choice{text-align: center;margin: 50px 0;}
+#center .info_choice button{display: inline-block;width:673px;height:71px;background:url(/images/lets_china/licensee/submit_btn_blue.png)center no-repeat;}
+#center .info_choice2 {width:1200px;margin:0 auto 50px;text-align:center;}
+#center .choice_txt2 {font-weight:bold;font-size:24px;color:323232;margin-top:38px;}
+#center .choice_txt4 {color:#3e7796;font-size:18px;margin-top:10px;}
+#center .application_form{width: 740px;margin: 0 auto;}
+#center .application_form legend{text-indent: -9999px;font-size: 0;}
+#center .application_form .wrap{margin-top: 50px;}
+#center .application_form .row + .row{margin-top: 20px;}
+#center .application_form .row span{display: block;float: left;width: 37px;height: 37px;margin: 10px 0;border-radius: 50%;font-size: 23px;font-weight: bold;color: #fff;background: #3e7796;text-align: center;line-height: 1.5;}
+#center .application_form .row input{display: block;float: left;width: 680px;height: 58px;margin-left: 18px;border: 1px solid #bfbfbf;padding: 15px 20px;font-size: 22px;}
+#center .application_form .row input::placeholder{color: #999;}
+#center .application_form .row input:-ms-input-placeholder{color: #999;}
+
+
+/* licensee */
+select::-ms-expand {display:none}
+
+#licensee{margin:0 auto;}
+#licensee .top{width: 100%;min-width:1200px;height: 768px;background: url(/images/lets_china/licensee/top_bg.png)right center / cover no-repeat;position: relative;}
+#licensee .top .txt_box{position: absolute;width: 535px;height: 345px;top: 50%;left: 50%;margin-left: -267.5px;margin-top: -165.5px;text-align: center;}
+#licensee .top .top_txt1{font-size: 82px;font-weight: bold;}
+#licensee .top .top_txt1:before {content: "";position: absolute;top: -15px;left: 160px;width: 10px;height: 10px;border-radius: 50%;background: #f15353;}
+#licensee .top h1{font-size: 30px;font-weight: bold;line-height: 2;}
+#licensee .top h3{margin-top: 30px;line-height: 1.5;-ms-transform:skew(-0.1deg);-webkit-transform:skew(-0.1deg);transform:skew(-0.1deg);}
+#licensee .top button{margin-top: 30px;font-size: 18px;font-weight: 600;border-radius: 50px;width: 158px;height: 42px;background: #f15353;color: #fff;}
+#licensee .intro{width: 100%;min-width:1200px;}
+#licensee section h2{padding: 122px 0;text-align: center;font-size: 42px;font-weight: bold;}
+#licensee section h2 span{color: #f15353;}
+#licensee .intro{}
+#licensee .intro .inner{}
+#licensee .intro .inner .form_box{}
+#licensee .intro .inner .form{width: 100%;height: 737px;}
+#licensee .intro .inner .form .title{width: 100%;height: 202px;text-indent: -9999px;}
+#licensee .intro .inner .form:nth-child(1) .title{background: url(/images/lets_china/licensee/title01.png)top center no-repeat;}
+#licensee .intro .inner .form:nth-child(2) .title{background: url(/images/lets_china/licensee/title02.png)top center no-repeat;}
+#licensee .intro .inner .form:nth-child(3) .title{background: url(/images/lets_china/licensee/title03.png)top center no-repeat;}
+#licensee .intro .inner .form .content{width: 1200px;margin: 0 auto;height: 466px;position: relative;}
+#licensee .intro .inner .form .content .img{width: 725px;height: 466px;}
+#licensee .intro .inner .form:nth-child(1) .content .img{background: url(/images/lets_china/licensee/img01.png)center no-repeat;}
+#licensee .intro .inner .form:nth-child(2) .content .img{background: url(/images/lets_china/licensee/img02.png)center no-repeat;}
+#licensee .intro .inner .form:nth-child(3) .content .img{background: url(/images/lets_china/licensee/img03.png)center no-repeat;}
+#licensee .intro .inner .form .content .txt{position: absolute;top: 50%;right: 0;width: 505px;height: 190px;margin-top: -120px;}
+#licensee .intro .inner .form .content h3{font-size: 18px;line-height: 1.5;}
+#licensee .intro .inner .form .content ul{margin-top: 30px;}
+#licensee .intro .inner .form .content li{}
+#licensee .intro .inner .form .content span{display: block;line-height: 1.5;transform: skew(-0.1deg);position: relative;}
+#licensee .intro .inner .form .content li span{padding-left: 13px;}
+#licensee .intro .inner .form .content .review span:nth-child(1){font-weight:600;margin-top: 45px;}
+#licensee .intro .inner .form .content .review span:nth-child(2){margin-top: 10px;}
+#licensee .intro .inner .form .content li .bold:before{content: "";position: absolute;width: 5px;height: 5px;background: #f15252;border-radius: 50%;top: 7px;left: 0;}
+#licensee .intro .inner .form .content li + li{margin-top: 10px;}
+#licensee .intro .inner .form .content .review{}
+#licensee .step{width: 100%;min-width:1200px;background: #f6f6f6;width: 100%;height: 690px;}
+#licensee .step ol{width: 1200px;height: calc(100% - 287px);margin: 0 auto;}
+#licensee .step li{position: relative;float: left;width: 25%;height: 305px;}
+#licensee .step li + li:before{content: "";position: absolute;top: 100px;left: -15px;width: 30px;height: 24px;background: url(/images/lets_china/licensee/step_arrow.png)center no-repeat;}
+#licensee .step li .img{width: 100%;height: 192px;text-indent: -9999px;}
+#licensee .step li:nth-child(1) .img{background: url(/images/lets_china/licensee/step01.png)center no-repeat;}
+#licensee .step li:nth-child(2) .img{background: url(/images/lets_china/licensee/step02.png)center no-repeat;}
+#licensee .step li:nth-child(3) .img{background: url(/images/lets_china/licensee/step03.png)center no-repeat;}
+#licensee .step li:nth-child(4) .img{background: url(/images/lets_china/licensee/step04.png)center no-repeat;}
+#licensee .step li span{display: block;text-align: center;line-height: 1.6;font-weight: 600;transform: skew(-0.1deg);margin-top: 20px;font-size: 19px;}
+#licensee .benefit{width: 1200px;margin: 0 auto;height: 870px;}
+#licensee section.benefit h2 {padding: 122px 0 40px 0;}
+#licensee .benefit .benefit_list{}
+#licensee .benefit .benefit_list ul{width: 570px;margin: 0 auto;}
+#licensee .benefit .benefit_list li{position: relative;font-size: 22px;line-height: 1.8;padding-left: 30px;}
+#licensee .benefit .benefit_list li:before {content: "";position: absolute;top: 0;left: 0;width: 23px;height: 28px;background: url(/images/lets_china/licensee/checkbox.png)center no-repeat;}
+#licensee .benefit .benefit_item{margin-top: 80px;}
+#licensee .benefit .benefit_item ul{position: relative;width: 100%;height: 261px;}
+#licensee .benefit .benefit_item li{width: 258px;height: 259px;border: 1px solid #f15252;border-radius: 50%;position: absolute;top: 0;}
+#licensee .benefit .benefit_item li:nth-child(1){left:45px}
+#licensee .benefit .benefit_item li:nth-child(2){left:260px}
+#licensee .benefit .benefit_item li:nth-child(3){left:475px;background: #f15252;}
+#licensee .benefit .benefit_item li:nth-child(4){left:686px}
+#licensee .benefit .benefit_item li:nth-child(5){left:895px}
+#licensee .benefit .benefit_item li span{line-height: 1.5;text-align: center;display: table-cell;width: 261px;height: 261px;vertical-align: middle;font-size: 22px;font-weight: bold;}
+#licensee .benefit .benefit_item li:nth-child(3) span{font-size: 30px;color:#fff}
+#licensee .contact_form{width: 100%;min-width:1200px;height: 1034px;background: url(/images/lets_china/licensee/bottom_bg.png)right center / cover no-repeat;}
+#licensee section.contact_form h2{padding: 122px 0 55px 0;line-height: 1.5;}
+#licensee section.contact_form h2 span.light{color:#323232;font-weight: 400;}
+#licensee .contact_form form fieldset{width: 1026px;margin: 0 auto;}
+#licensee .contact_form form fieldset:first-child{margin: 0 auto 50px;}
+#licensee .contact_form form legend{font-size: 0;}
+#licensee .contact_form form .row + .row{margin-top: 20px;}
+#licensee .contact_form form .row span{font-size: 22px;font-weight: 600;width: 152px;display: inline-block;text-align: right;padding-right:10px;}
+#licensee .contact_form form .row input{width: 680px;height: 58px;padding: 10px 15px;border: 1px solid #bfbfbf;font-size: 22px;color:#a8a6a6}
+#licensee .contact_form form .row input::placeholder{color:#a8a6a6;}
+#licensee .contact_form form .row input:-ms-input-placeholder{color:#a8a6a6;}
+#licensee .contact_form form .row.area{position: relative;}
+#licensee .contact_form form .row.area:after {content: "";position: absolute;top:25px;right: 210px;width: 16px;height: 9px;background: url(/images/lets_china/licensee/arrow_down.png)center no-repeat;}
+#licensee .contact_form form .row.area #area{width: 680px;height: 58px;padding: 10px 15px;font-size: 22px;-ms-appearance: none;appearance: none;-webkit-appearance: none;border:1px solid #bfbfbf;color:#a8a6a6;background:#fff;}
+#licensee .contact_form form .row.call label,
+#licensee .contact_form form .row.call span {float: left;height: 58px;line-height: 2.5;}
+#licensee .contact_form form .row.call label:nth-child(2){margin:0 14px 0 5px;}
+#licensee .contact_form form .row.call label.inner{position: relative;width: 320px;float: left;height: 58px;}
+#licensee .contact_form form .row.call label.inner:after{content: "";position: absolute;top: 25px;right: 20px;width: 16px;height: 9px;background: url(/images/lets_china/licensee/arrow_down.png)center no-repeat;}
+#licensee .contact_form form .row.call select {width: 100%;height:100%;font-size: 22px;padding: 10px 15px;appearance: none;-webkit-appearance: none;border:1px solid #bfbfbf;color:#a8a6a6;background:#fff;}
+#licensee .contact_form form .row.call .inner + .inner{margin-left: 26px;}
+#licensee .contact_form form .row.call .inner + .inner:before {position: absolute;top: 2px;left: -25px;content: "~";}
+#licensee .contact_form form .row input:hover,
+#licensee .contact_form form .row input:focus,
+#licensee .contact_form form .row select:hover,
+#licensee .contact_form form .row select:focus,
+#licensee .contact_form form .row.area #area:hover,
+#licensee .contact_form form .row.area #area:focus {border: 1px solid #8e8e8e;}
+#licensee .contact_form form fieldset:last-child{width: 100%;border-top: 1px solid #fff;}
+#licensee .contact_form form .agree_form{}
+#licensee .contact_form form .agree_form .inner{width: 370px;
+    margin: 50px auto 0;}
+#licensee .contact_form form .agree_form .inner .agree_box{width: 255px;float: left;position: relative;}
+#licensee .contact_form form .agree_form .inner .agree_box label{position: relative;line-height: 2.35;padding-left: 25px;cursor: pointer;}
+#licensee .contact_form form .agree_form .inner .agree_box label:before {content: "";position: absolute;top: 0;left: 0;width: 22px;height: 21px;background: url(/images/lets_china/licensee/input_checkbox.png)center no-repeat;}
+#licensee .contact_form form .agree_form .inner .agree_box input:checked + label:before {content: "";position: absolute;top: 0;left: 0;width: 22px;height: 21px;background: url(/images/lets_china/licensee/input_checkbox_on.png)center no-repeat;}
+#licensee .contact_form form .agree_form .inner .agree_box input{position: absolute;top: 0;left: 0;width: 0;height: 0;}
+#licensee .contact_form form .agree_form .inner .agree_box input:checked + label{}
+#licensee .contact_form form .agree_form .inner .agree_box button{}
+#licensee .contact_form form #terms{float: right;width: 104px;height: 37px;background: #bbb;font-size: 18px;color: #fff;}
+#licensee .contact_form button.submit{width: 674px;height: 71px;margin: 50px auto 0;display: block;background: url(/images/lets_china/licensee/submit_btn.png)center no-repeat;border-radius: 50px;font-size: 22px;font-weight: bold;color: #fff;}

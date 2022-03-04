@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+#soonsoo_info #main_th {width:100%;min-width:1200px;height:283px;background-image: url(../../../images/lets_china/soonso_info/title/company_bg.png);background-repeat: no-repeat;background-position:center;}
+#soonsoo_info .main_t {width:1200px;margin:0 auto;text-align:center;}
+#soonsoo_info .ma_tx {font-size:50px;font-weight:bold;padding-top:130px;}
+#soonsoo_info .ma_tx2 {font-weight:normal;margin-top:30px;font-size:18px;}
+#soonsoo_info .main_title2 {font-size:18px;text-align:center;display:inline-block;margin-top:8%;font-weight:normal;}
+#soonsoo_info .main_bar {display:inline-block;top:13%;left:0;margin-top:2.5%;border:0.5px solid red;width:100%;}
+#soonsoo_info .main_t2 {width:1200px;margin:0 auto;text-align:center;}
+#soonsoo_info .main_title3 {margin-top:120px;font-size:36px;font-weight:bold;}
+#soonsoo_info .main_title4 {display:block;font-size:18px;margin-top:25px;line-height:30px;font-weight:normal;letter-spacing: -0.5px;}
+#soonsoo_info .main_one {width:1200px;margin:0 auto;margin-top:6%;margin-bottom:100px;text-align:center;}
+#soonsoo_info #maps {width:100%;min-width:1200px;height:1038px;color:#323232;background:#f2f2f2;margin:0 auto;margin-bottom:150px;}
+#soonsoo_info .maps_txt {font-size:36px;font-weight:bold;padding-top:125px;}
+#soonsoo_info .maps_txt2 {margin-top:30px;font-size:18px;line-height:30px;letter-spacing: -0.5px;font-weight:normal;}
+#soonsoo_info .maps_txt3{position: absolute;top: 245px;left: 50%;margin-left: -470px;}
+#soonsoo_info .map_img {position: relative;width:1200px;text-align:center;margin:0 auto;}
+#soonsoo_info #history {width:1200px;margin: 150px auto 60px auto;}
+.his_txt {font-size:36px;font-weight:bold;text-align: center;padding-bottom: 50px;border-bottom: 2px solid #f15353;}
+.his_txt2 {display:inline-block;margin-top:30px;font-size:20px;
+font-weight:normal;}
+#soonsoo_info .inner div.year{padding: 30px 0;border-bottom: 1px solid #bdbdbd;}
+#soonsoo_info .inner div.year .left{float: left;margin-right: 75px;}
+#soonsoo_info .inner div.year .right{float: left;}
+#soonsoo_info .inner div.year .title span{display: block;font-size: 32px;font-weight: bold;}
+#soonsoo_info .inner div.year .title span + span{padding-top: 40px;
+    position: relative;}
+#soonsoo_info .inner div.year .title span + span:before{content: "";position: absolute;top: 0;left: 2px;width: 2px;height: 40px;background: #222;}
+#soonsoo_info .inner div.year .text{margin-top: 10px;}
+#soonsoo_info .inner div.year .text li{font-weight: 600;line-height: 1.5;}
+#soonsoo_info .inner .before{display: none;}
+#soonsoo_info .inner .before .text{margin-top: 0;}
+#soonsoo_info #plus{width:1200px;margin:0 auto 100px auto;}
+#soonsoo_info #plus .plus_btn{cursor: pointer;}
+#soonsoo_info #plus .plus_btn button{width: 100%;height: 50px;border-bottom: 1px solid #bdbdbd;background: #fff;}
+#soonsoo_info #plus #plus_img2{display:none;margin-top:50px;background: #fff;}
+#soonsoo_info #plus.show #plus_img2{display:block;}
+#soonsoo_info #history h1.year{font-size:2.7rem;font-weight: bold;margin-bottom: 1rem;}
+#soonsoo_info #history h1.year.red{color:#ed1c24;}
+#soonsoo_info #history .row{padding-bottom: 30px;}
+#soonsoo_info #history .row .item{float: left;width: calc(33.33% - 10px);}
+#soonsoo_info #history .row .item + .item{margin-left:15px;}
+#soonsoo_info #history .row + .row{padding-top: 30px;border-top: 1px solid #d1d3d4;}
+#soonsoo_info #history .row .item:nth-child(4) {margin-left: 0;clear: both;}
+#soonsoo_info #history .row .item:nth-child(4), #soonsoo_info #history .row .item:nth-child(5), #soonsoo_info #history .row .item:nth-child(6) {margin-top: 50px;}
+#soonsoo_info #history .item .img{border:1px solid #e5e5e5;}
+#soonsoo_info #history .item .img img{width: 100%;height: 240px;}
+#soonsoo_info #history .item .txt{margin-top: 1.1rem;height:94px;}
+#soonsoo_info #history .item .txt p{font-size:1.2rem;line-height: 1.5;}

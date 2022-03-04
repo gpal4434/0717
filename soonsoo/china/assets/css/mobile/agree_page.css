@@ -1,0 +1,117 @@
+
+.agree_wrap{width:86%; margin:0 auto;}
+.agree_start{padding:60px 0 30px; font-size:1.8em; font-weight:900}
+.agree_start p{line-height:1.5}
+.agree_wrap .agree_step{text-align:center; margin-bottom:40px}
+.agree_wrap .agree_step img{width:100%; max-width:649px}
+
+.agree_chk{margin-bottom:40px}
+.m_agree_c{margin-bottom:0px !important}
+input[type='checkbox'] { display:none; height:13px;}
+label{margin-right:10px}
+input[type='checkbox']+ label span {/*margin-right:4px;*/ display:inline-block; width:25px; height:23px; background:url(/images/mobile/btn/chk_btn.png)-27px 2px no-repeat; vertical-align:middle; padding-bottom:3px}
+input[type='checkbox']:checked+ label span {/*margin-right:4px;*/ background:url(/images/mobile/btn/chk_btn.png) left 2px no-repeat;} 
+.agree_chk_t p{font-size:15px; display:inline-block; padding-right:10.7px; color:#222222; font-weight:700; letter-spacing:-1px}
+
+.agree_page{padding-top:10px}
+.agree_page p{font-size:13px; color:#888888; font-weight:700}
+.agree_page img{vertical-align:middle; padding-left:5px; margin-top:-2px}
+
+.agree_button{width:100%; text-align:center; padding-bottom:40px}
+.agree_button .agree_next_btn{width:80px; background:#fd5500; padding:10px 0; text-align:center; display:inline-block; border-radius:5px; color:#fff; letter-spacing:1.5px}
+
+.terms_wrap{width:86%; margin:0 auto; font-weight:700}
+.terms_wrap .terms_tit{margin:25px auto 45px; }
+.terms_wrap .terms_tit h1{color:#ff7800; font-size:1.8em; font-weight:900 !important; letter-spacing:2px}
+.terms_wrap .terms_tit p{color:#888888; font-size:1.2em; font-weight:700}
+.terms_line{border-bottom:2px solid #c9c9c9; text-align:right; color:#888888; padding-bottom:5px}
+.terms_wrap{font-size:0.8em; line-height:1.7; color:#888888; word-break:keep-all}
+.terms_wrap span{color:#ff7800; font-weight:900; font-size:1.15em; margin:20px 0 10px; display:inline-block}
+.terms_wrap table, tr, td, th{border:1px solid #888; text-align:center; padding:0 2px}
+.terms_wrap th{font-weight:700}
+.pl10{padding-left:20px; letter-spacing:0.5px}
+.terms_table{max-width:631px; width:100%}
+
+
+
+/********** join_form **********/
+.agree_start{padding:15px 0 30px}
+
+.mypage_name p{font-size:28px; color:#222}
+.myinfo_revise p{font-size:17px; color:#7c3cff; padding-bottom:4px}
+.myinfo_revise h2{width:100%; margin-bottom:3px; padding-bottom:8px; border-bottom:2px solid #666666}
+
+.revise_wrap{width:100%; border-top:1px solid #e2e2e2; margin-bottom:40px; box-sizing:content-box}
+.revise_wrap div{display:inline-block; /*margin-left:1.7px;*/ vertical-align:middle}
+.revise_one{width:100%; border-bottom:1px solid #e2e2e2; box-sizing:border-box; background:#f6f6f6}
+.revise_l{width:24.8%; text-align:center}
+.revise_l p{color:#222; font-size:12.5px; font-weight:700; line-height:1.3; display:inline-block; text-align:left}
+.revise_r{width:75.2%; background:#fff; padding:10px 0px 8px 0px}
+.revise_r .pw_revise{background:url(/images/pw_box.png)no-repeat; width:102px; height:30px; font-size:13px; color:#fff; font-weight:700}
+.revise_r .selec_tit{color:#888; border:1px solid #cecece; height:33px; font-size:12px; padding:0 10px}
+.revise_r .selec_d{margin-right:3px; font-size:12px !important; color:#888888}
+.code_span span{font-size:14px;color:#ff5a00; padding-bottom:6px; display:inline-block}
+.revise_r p{display:inline-block; color:#888; font-size:12px;}
+.revise_r .p_num{width:55px}
+.revise_r .agree_chk{display:block; /*padding-top:8px*/}
+.revise_r .agree_chk p{padding-bottom:0; font-size:12px}
+.revise_r .cale{margin-top:5px} 
+.revise_r .code_chk p{padding-top:8px; padding-bottom:0; font-size:12px}
+.revise_r  .code_input p{color:#ff5a00; font-size:12px}
+.revise_r  .code_input  span{color:#888888; font-size:12px}
+
+.b_address{width:93% !important; margin-bottom:3px}
+.d_address{width:235px}
+.revise_r .detail_add{margin:3px 0 0 0; display:block}
+.add_revise{border-bottom:2px solid #666666; padding-bottom:3px; padding-top:75px; margin-bottom:3px}
+.withd_btn{width:140px; height:40px; background:url(/images/btn/btn_g_140.png)no-repeat; float:right; color:#fff; font-size:16px; font-weight:700; text-align:center; letter-spacing:2px; padding-top:5px; margin-top:20px}
+
+.login_c_3{width:860px; margin:0 auto; border:1px solid #ffa764; border-top:none; margin-bottom:100px}
+.login_3_wrap{width:750px; margin:0 auto; padding-bottom:80px}
+.login_3_wrap input[type="text"]{padding:7px 0 7px 10px}
+.login_info{padding-top:30px}
+
+.esse_desc{margin-top:55px}
+.esse_desc h2{font-size:17px; color:#ff5a00}
+.esse_desc h5{width:100%; font-size:13px; color:#888; padding:8px 0 10px 0; border-bottom:2px solid #666666;}
+.revise_r span{color:#888; font-size:12px}
+.revise_r .p_span{padding-left:5px}
+.myinfo_revise h2{font-size:16px; color:#ff5a00 !important; font-weight:700}
+.myinfo_revise h5{padding:8px 0 10px 0}
+.agree_wrap .myinfo_container{margin-top:50px}
+.code_chk{display:block !important}
+
+
+/****** 필수정보입력란 ******/
+.id_desc{width:138px; padding:4.5px 0 4.5px 5px; border:1px solid #cecece; font-size:13px; height:22px}
+.phone_box{width:50px !important; text-align:center; padding-left:0}
+.m_phoneNum{padding:0 13px !important}
+.email_box{width:78px !important}
+.post_box1{width:70px !important}
+.post_box2{width:50px !important}
+.id_chk{width:42px; height:32px; background-color:#0090ff !important; color:#fff; font-weight:bold; font-size:11px; border-radius:2px !important}
+.post_chk{width:50px; height:32px; background-color:rgba(0,144,255,1) !important; color:#fff; font-weight:bold; font-size:11px; border-radius:2px !important}
+.same_addr{width:75px; height:32px; background-color:#0090ff !important; color:#fff; font-weight:bold; font-size:11px; border-radius:2px !important}
+.id_cha{width:42px; height:32px; background-color:#ff5a00 !important; color:#fff; font-weight:bold; font-size:11px; border-radius:2px !important}
+.cale{display:inline-block}
+.cale p{display:inline-block; color:#888;}
+.cale label{margin-right:4px}
+
+.revise_r input[type='radio'] { display:none; height:13px;}
+/*.revise_r label{margin-right:4px}*/
+.revise_r input[type='radio']+ label span {margin-right:3px; display:inline-block; width:16px; height:13px; background:url(/images/icon/chk_radio_1.png)left 2px no-repeat; vertical-align:middle; padding-bottom:3px}
+.revise_r input[type='radio']:checked+ label span {margin-right:3px; background:url(/images/icon/chk_radio_1.png) -15px 2px no-repeat;} 
+
+.revise_r input[type='checkbox'] { display:none; height:13px;}
+/*.revise_r label{margin-right:10px}*/
+.revise_r input[type='checkbox']+ label span {/*margin-right:3px;*/ display:inline-block; width:16px; height:13px; background:url(/images/icon/chk_radio_2.png)left 2px no-repeat; vertical-align:middle; padding-bottom:3px}
+.revise_r input[type='checkbox']:checked+ label span {/*margin-right:3px;*/ background:url(/images/icon/chk_radio_2.png) -15px 2px no-repeat;} 
+
+.mr10{margin-left:10px}
+
+/***** join_complete *****/
+.agree_comp_wrap .agree_logo{width:80%; margin:0 auto; text-align:center}
+.agree_comp_wrap .agree_logo img{max-width:424px; width:100%}
+.agree_comp_wrap  .agree_comp_txt{text-align:center; margin:30px auto 35px}
+.agree_comp_wrap  .agree_comp_txt h1{font-size:16px; color:#222222; font-weight:700}
+.agree_comp_wrap  .agree_comp_txt p{color:#ff7800; font-weight:700; font-size:14.5px}
