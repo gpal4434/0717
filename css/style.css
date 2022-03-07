@@ -184,6 +184,33 @@ html, body, #wrap{height: 100%;}
 #wrap #aboutme .profile .info .row.progress li:nth-child(5) .progressbar div{width: 60%;}
 #wrap #aboutme .profile .info .row.progress li:nth-child(6) .progressbar div{width: 65%;}
 
+#soonsoo{}
+#soonsoo ul{padding: 50px;}
+#soonsoo li{float: left;width: calc(16.66% - 13px);
+    height: 300px;margin-top: 50px;}
+#soonsoo li + li{margin-left: 15px;}
+#soonsoo li:nth-child(1),
+#soonsoo li:nth-child(2),
+#soonsoo li:nth-child(3),
+#soonsoo li:nth-child(4),
+#soonsoo li:nth-child(5),
+#soonsoo li:nth-child(6){margin-top: 0;}
+#soonsoo li:nth-child(7n){margin-left: 0;}
+#soonsoo li > div{box-shadow: 0 0 20px 0px rgb(0 0 0 / 30%);}
+#soonsoo .img{position: relative;width: 100%;height: 150px;background: rgba(255,255,255,0.4);}
+#soonsoo .img img{width: 60%;transform: translate(-50%, -50%);position: absolute;top: 50%;left: 50%;}
+#soonsoo .txt{width: 100%;height: 88px;padding: 20px;line-height: 1.5;background: rgb(90 114 149);}
+#soonsoo .txt p{color: #fff;}
+#soonsoo .btn{margin-top: 15px;border-radius: 50px;text-align: center;box-shadow: 0 0 20px 0px rgb(0 0 0 / 30%);background: #fff;}
+#soonsoo .btn button{background: none;color: #5a7295;width: 100%;height: 100%;display: block;padding: 15px;}
+#soonsoo .btn.two:after{content:"";display: block;clear: both;}
+#soonsoo .btn.two button{float: left;width: 50%;}
+#soonsoo .btn.two button + button,
+#soonsoo .btn.three button + button{position: relative;}
+#soonsoo .btn.two button + button:after,
+#soonsoo .btn.three button + button:after{position: absolute;top: 13px;height: 25px;width:1px;background: #839cc1;content: "";left: 0;}
+#soonsoo .btn.three button{float: left;width: 33.3%;}
+
 
 #wrap #aboutme.swiper-slide.swiper-slide-active .txt{animation: ani 1s}
 
