@@ -1,0 +1,61 @@
+@charset "UTF-8";
+@media all and (min-width:361px) and (max-width:400px){html{font-size: 16px;}}
+@media all and (min-width:401px) and (max-width:440px){html{font-size: 18px;}}
+@media all and (min-width:441px) and (max-width:500px){html{font-size: 20px;}}
+@media all and (min-width:501px) and (max-width:570px){html{font-size: 22px;}}
+@media all and (min-width:571px) and (max-width:698px){html{font-size: 23px;}}
+@media all and (max-width:699px){
+.web{display: none !important;}
+.mobile{display: block !important;}
+
+.wrap{width: 100%;}
+.tab dt{width: 33.33%;font-size: 1rem;line-height: 3rem;padding: 0;border-radius: 0;border:0;}
+.tab dd{top:50px;}
+.tab{border:0;}
+/* index */
+.lgr .section01{width: 100%;height: 33rem;}
+.lgr .section01 button{width: 100%;height: 2.5rem;margin-left: 0;transform: translate(-50%);bottom: 1rem;}
+.lgr .section02{width: 100%;padding: 2rem 1rem;}
+.lgr .section02 .title{height: 13rem;}
+.lgr .section02 .items{margin-top: 2rem;}
+.lgr .section02 .items li{width: 100%;height: 7rem;}
+.lgr .section02 .items li a{top: 1rem;right: 1.5rem;width: 3.5rem;height: 3.5rem;padding: 0;line-height: 3.7rem;font-size: 22px;font-weight: bold;border-radius: 50%;}
+.lgr .section03{width: 100%;padding-top: 3rem;}
+.lgr .section04{width: 100%;padding-top: 3rem;height: 27rem;}
+.lgr .section04 img{width: 90%;}
+.lgr .section04 iframe{width: 90%;height: 12rem;margin-top: 2rem;}
+.phonics{width: 100%;}
+.phonics .tw{padding: 3rem 0;}
+.phonics .tw .disc{float: none;width: 100%;height: auto;margin-left: 0;text-align: center;}
+.phonics .tw .disc .prog_title{margin-top: 0;}
+.phonics .tw .disc .prog_title h3{font-size: 2rem;line-height: 1;}
+.phonics .tw .disc .prog_txt p{font-size: 1rem;}
+.phonics .tw .video{float: none;width: 88%;margin: 2rem auto 0;}
+.phonics .section03 .disc .prog_title span:nth-child(2){margin-left: 0;}
+.phonics .section04 .item01{width: 100%;height: 10rem;margin: 2rem 0;}
+.phonics .section04 .item01 button{width: 60%;height: 3rem;bottom: 0;margin-left: 0;transform: translateX(-50%);}
+.phonics .section02 .disc .label,
+.phonics .section03 .disc .label{position: absolute;top: -1.5rem;left: 0;margin-top: 0;width: 15%;height: auto;}
+.phonics .pic{position: relative;top: auto;right: auto;width: 30%;margin: 0 auto;padding: 1rem 0;}
+.phonics .section04{padding: 2rem;}
+.lgr .section01 button:hover,
+.phonics .section04 .item01 button:hover{transform: translate(-50%);transition: none;}
+
+/* pay */
+.pay{width: 100%;}
+.pay .section_wrap{width: 90%;padding-top: 1rem;}
+.pay h1{font-size: 1.2em;}
+.list table td{font-size: 0.9rem;}
+.info .top{width: 100%;}
+.info th{width: 30%;}
+.info .top .tel{width: auto;}
+.info .top .tel .input{margin-left: 0;}
+.info .top .tel .input + .input{margin-left: 20px;}
+.info input{width: 100%;font-size: 0.8rem;}
+.type .pay_type li{line-height: normal;}
+.type .pay_type li button{font-size: 0.9rem;}
+.type .agree .b{font-size: 0.8rem;}
+.type .agree p{font-size: 0.4rem;}
+.btn_wrap{width: 90%;padding: 3rem 0;}
+.btn_wrap button{width: 7rem;}
+.btn_wrap button + button{margin-left: 2rem;}

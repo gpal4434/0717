@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/media.css">
+  <script src="js/jquery-1.7.2.min.js"></script>
+  <script src="js/common.js"></script>
+  <title>ALL프리패스 리뷰 체험단 신청서</title>
+</head>
+<body>
+  <div class="p_wrap">
+    <section class="header">
+      <img src="images/header.png" alt="ALL프리패스 리뷰 체험단 신청서">
+    </section>
+    <section class="content">
+      <div class="form">
+        <table>
+          <caption>ALL프리패스 리뷰 체험단 신청서</caption>
+          <tbody>
+            <tr>
+              <th>이 름</th>
+              <td>
+                <input type="text">
+              </td>
+            </tr>
+            <tr>
+              <th>연 락 처</th>
+              <td class="clear">
+                <div class="tel">
+                  <input type="tel">
+                </div>
+                <div class="tel">
+                  <input type="tel">
+                </div>
+                <div class="tel">
+                  <input type="tel">
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th>이 메 일</th>
+              <td class="clear">
+                <div class="email">
+                  <input type="text">
+                </div>
+                <div class="email">
+                  <input type="text">
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th>자 녀 연 령</th>
+              <td class="select clear">
+                <div class="select_box">
+                  <select>
+                    <option value="7세">7세</option>
+                    <option value="초1">초1</option>
+                    <option value="초2">초2</option>
+                    <option value="초3">초3</option>
+                    <option value="초4">초4</option>
+                    <option value="초5">초5</option>
+                    <option value="초6">초6</option>
+                  </select>
+                </div>
+                <div class="txt">
+                  <p>* 리뷰체험단 모집연령은 7~13세입니다.</p>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th class="sub lh web">학 습 과 목<br /><span>(선 택 2 개)</span></th>
+              <th class="sub lh mobile">학습과목 (선택 2개)</th>
+              <td>
+                <div class="checkbox_wrap clear">
+                  <div class="checkbox">
+                    <input onclick="CountChecked(this)" type="checkbox" name="sub" id="lgr" value="lgr">
+                    <label for="lgr">렛츠고리딩</label>
+                  </div>
+                  <div class="checkbox">
+                    <input onclick="CountChecked(this)" type="checkbox" name="sub" id="lgp" value="lgp"">
+                    <label for="lgp">렛츠고파닉스</label>
+                  </div>
+                  <div class="checkbox">
+                    <input onclick="CountChecked(this)" type="checkbox" name="sub" id="sl" value="sl"">
+                    <label for="sl">슬리핑잉글리시</label>
+                  </div>
+                  <div class="checkbox">
+                    <input onclick="CountChecked(this)" type="checkbox" name="sub" id="lgg" value="lgg" disabled>
+                    <label for="lgg">렛츠고그래머</label>
+                  </div>
+                  <div class="checkbox">
+                    <input onclick="CountChecked(this)" type="checkbox" name="sub" id="ggs" value="ggs" disabled>
+                    <label for="ggs">구공시</label>
+                  </div>
+                </div>
+                <div class="txt">
+                  <p>* 렛츠고그래머 & 구공시는 체험단 선택불가 상품</p>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th>태 블 릿 유 무</th>
+              <td>
+                <div class="radio">
+                  <input type="radio" id="yes" name="tablet">
+                  <label for="yes">유</label>
+                </div>
+                <div class="radio">
+                  <input type="radio" id="no" name="tablet">
+                  <label for="no">무</label>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th class="lh right h40 btn web">개 인 blog<br />& SNS URL</th>
+              <th class="lh right h40 btn mobile">개인 blog & SNS URL</th>
+              <td class="btn">
+                <div class="clear">
+                  <input type="url" name="url">
+                  <button class="add">+</button>
+                </div>
+                <div class="txt">
+                  <p>* 본인이 운영중인 개인 SNS를 작성해주세요.</p>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th class="lh h40 web">스 크 랩<br />U R L</th>
+              <th class="lh h40 mobile">스크랩 URL</th>
+              <td class="btn">
+                <div class="clear">
+                  <input type="url">
+                  <button class="add">+</button>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th class="lh h40 web">체 험 단 모 집<br />공 유 URL</th>
+              <th class="lh h40 mobile">체험단 모집 공유 URL</th>
+              <td class="btn">
+                <div class="clear">
+                  <input type="url">
+                  <button class="add">+</button>
+                </div>
+              </td>
+            </tr>
+            <tr>
+              <th class="lh web">개 인 정 보<br />취 급 방 침<br />마 케 팅 활 용<br />동 의</th>
+              <th class="lh mobile">개인정보 취급 방침 마케팅 활용 동의</th>
+              <td>
+                <textarea cols="30" rows="10">
+  ㈜순수교육 ALL프리패스 학습 리뷰, 영상 및 이미지
+  ‘개인정보수집 및 마케팅 활용 동의서’
+  ‘초상권 사용 동의서’
+   
+   
+  주식회사 순수교육(이하 “회사”라 함)은 ALL프리패스 학습리뷰,  영상 및 이미지 포스팅 제공자 대상으로 아래와 같이 ‘개인정보 수집 및 마케팅 활용 동의’에 대해 최소한의 필요한 정보를 요구할 수 있습니다. 개인정보 수집 및 마케팅 활용 동의는 목적에 맞는 이용만 할 것입니다.
+   
+  정보통신망 이용촉진 및 정보보호 등에 관한 법률, 개인정보 보호법 등정보통신 서비스 제공자가 준수하여야 할 관련 법규상의 개인정보보호 규정을 준수하고, 관련 법규에 의거한 개인정보취급방침을 정하여 본 대회에 참가한 회원은자세히 읽으신 후, 동의 여부를 결정하여 주시기 바랍니다.
+   
+  1. 개인정보 수집 및 마케팅 활용 목적 : 귀하의 정보는 상품 수령 확인 및 상품 수령 이후에 발생할 수 있는 확인절차를 위한 원활한 의사소통 자료와 회사(순수교육 사이트, SNS, 홈쇼핑, 기타홍보)의 마케팅 활용을 위한 자료로 사용됩니다. 상품 수령 및 마케팅 활용 동의를 위해 개인정보를 전달한 경우, 회사의 이벤트 “개인정보 취급방침 및 마케팅 활용”에 동의한 것으로 판단합니다.
+   -정보 수집 및 사용기관 : ㈜드림미즈, ㈜순수교육
+
+
+  2. 개인정보 항목 :(1) 학부모님 정보 (이름) (2) 자녀 정보 (이름, 나이)3) 연락처 (휴대전화)
+  (4) 본인 SNS 계정(5) ALL프리패스 학습리뷰, 영상 및 이미지(블로그, SNS)
+   
+  3. 개인정보 제공 및 공유 : 회사는 이용자의 개인정보를 ＂1. 개인정보의 수집목적 및 이용목적＂에서 고지한 범위를 넘어서 이용하지 않으며, 이용자의 사전 동의 없이는 위 범위를 초과하여 이용하거나 타인에게 제공하지 않습니다. 다만, 다음의 경우에는 예외적으로 이용자의 개인정보를 제공할 수 있습니다. (1) 이용자가 사전에 개인정보 제공에 동의한 경우 (2) 법령에 의거하거나 수사 목적으로 법령에 정해진 절차와 방법에 따라 관련 기관의 요구가 있는 경우 (3) 유료 서비스 제공에 따른 요금 정산을 위하여 필요한 경우
+   
+  4. 동의 거부 권리 및 불이익 내용 : 정보 주체는 개인정보의 수집 및 이용에 대한 동의를 거부할 수 있습니다. 개인정보 제공자가 동의한 내용 외의 다른 목적으로 활용하지 않으며, 제공된 개인정보의 이용을 거부하고자 할 때에는 개인정보 관리책임자를 통해 열람, 정정, 삭제를 요구할 수 있습니다.
+   
+  5. 관리자의 책임 : 개인정보를 보호하는데 있어 고객님께 고지한 사항들에 반하는 사고가 발생할 시에 회사가 모든 책임을 집니다. 그러나 기술적인 보완조치를 했음에도 불구하고, 해킹 등 기본적인 네트워크상의 위험성에 의해 발생하는 예기치 못한 사고로 인한 정보의 훼손 및 방문자가 작성한 게시물에 의한 각종 분쟁에 관해서는 책임이 없습니다.
+
+                </textarea>
+                <div class="agree clear">
+                    <div class="radio">
+                      <input type="radio" id="agree" name="agree" checked>
+                      <label for="agree">동의</label>
+                    </div>
+                    <div class="radio">
+                      <input type="radio" id="disagree" name="agree">
+                      <label for="disagree">비동의</label>
+                    </div>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <button class="submit" onclick="UrlTest();"></button>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

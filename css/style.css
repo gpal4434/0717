@@ -60,10 +60,10 @@ html, body, #wrap{height: 100%;}
 #wrap .swiper-wrapper .swiper-slide#valmore .inner .left{background: url(../images/bg05.png)center no-repeat;}
 #wrap .swiper-wrapper .swiper-slide#dazzle .inner .left{background: url(../images/bg06.png)center no-repeat;}
 
-#wrap .swiper-wrapper .swiper-slide .inner .left .top{}
-#wrap .swiper-wrapper .swiper-slide .inner .left .top .num{font-size: 48px;color:#Fff;}
-#wrap .swiper-wrapper .swiper-slide .inner .left .top h1{margin:50px 0 20px 0;color:#fff;font-size: 42px;font-weight: 100;}
-#wrap .swiper-wrapper .swiper-slide .inner .left .top h1 em{font-style:normal;font-weight: bold;color:#fff;margin-right:20px;}
+
+#wrap .swiper-wrapper .swiper-slide .inner .top .num{font-size: 48px;color:#Fff;}
+#wrap .swiper-wrapper .swiper-slide .inner .top h1{margin:50px 0 20px 0;color:#fff;font-size: 42px;font-weight: 100;}
+#wrap .swiper-wrapper .swiper-slide .inner .top h1 em{font-style:normal;font-weight: bold;color:#fff;margin-right:20px;}
 #wrap .swiper-wrapper .swiper-slide .inner .left .top .desc{color:#fff;line-height: 1.5;}
 #wrap .swiper-wrapper .swiper-slide .inner .left .bottom{position: absolute;bottom: 20px;left: 50px;margin-right: 50px;}
 #wrap .swiper-wrapper .swiper-slide .inner .left .bottom table{text-align: left;}
@@ -113,6 +113,12 @@ html, body, #wrap{height: 100%;}
 #wrap .swiper-wrapper .swiper-slide#dazzle .inner .right .img{background: url(../images/bg06_img.png)center / 90% no-repeat;}
 #wrap .swiper-wrapper .swiper-slide .inner .right .btns{position: absolute;bottom: 6%;width: 100%;}
 #wrap .swiper-wrapper .swiper-slide .inner .right > button{border: 1px solid; width: 400px; height: 60px; line-height: 2.5;text-align: center;background: none;position: absolute;bottom: 80px;left: 50%;margin-left: -200px;-ms-transition: .1s;transition: .1s;border-radius: 50px;font-weight: bold;font-size: 18px;}
+#wrap .swiper-wrapper .swiper-slide .inner > .top{width: 100%;height: 100px;background: rgb(64 64 64 / 60%);padding: 0 50px;line-height: 100px;}
+#wrap .swiper-wrapper #soonsoo.swiper-slide .inner{padding-top: 50px;}
+#wrap .swiper-wrapper #soonsoo.swiper-slide .inner .top .bold{font-size: 48px;font-weight: bold;color:#fff;}
+#wrap .swiper-wrapper #soonsoo.swiper-slide .inner .top .light{color:#fff;font-weight: 300;}
+
+
 #wrap .swiper-wrapper .swiper-slide .inner .right > button:hover{ color:#fff;-ms-transition: .1s;transition: .1s;}
 #wrap .swiper-wrapper .swiper-slide#china .inner .right > button{border:1px solid #f15a56;}
 #wrap .swiper-wrapper .swiper-slide#china .inner .right > button:hover{background: #f15a56;}
@@ -199,10 +205,11 @@ html, body, #wrap{height: 100%;}
 #soonsoo li > div{box-shadow: 0 0 20px 0px rgb(0 0 0 / 30%);}
 #soonsoo .img{position: relative;width: 100%;height: 150px;background: rgba(255,255,255,0.4);}
 #soonsoo .img img{width: 60%;transform: translate(-50%, -50%);position: absolute;top: 50%;left: 50%;}
-#soonsoo .txt{width: 100%;height: 88px;padding: 20px;line-height: 1.5;background: rgb(90 114 149);}
+#soonsoo .txt{width: 100%;height: 88px;padding: 20px;line-height: 1.5;background: rgb(72 72 72);}
 #soonsoo .txt p{color: #fff;}
 #soonsoo .btn{margin-top: 15px;border-radius: 50px;text-align: center;box-shadow: 0 0 20px 0px rgb(0 0 0 / 30%);background: #fff;}
 #soonsoo .btn button{background: none;color: #5a7295;width: 100%;height: 100%;display: block;padding: 15px;}
+#soonsoo .btn button:hover{font-weight: bold;}
 #soonsoo .btn.two:after{content:"";display: block;clear: both;}
 #soonsoo .btn.two button{float: left;width: 50%;}
 #soonsoo .btn.two button + button,
@@ -229,7 +236,7 @@ html, body, #wrap{height: 100%;}
 @media screen and (max-width: 1320px), screen and (max-height: 730px){
   #wrap .swiper-wrapper .swiper-slide#main #typed-strings p, #wrap .swiper-wrapper .swiper-slide#main #typed{font-size: 86px;}
   #wrap .swiper-wrapper .swiper-slide .inner .left .bottom table td.point{display: block;height:130px; overflow-y: auto;}
-  #wrap .swiper-wrapper .swiper-slide .inner .left .top h1{font-size: 35px;}
+  #wrap .swiper-wrapper .swiper-slide .inner .top h1{font-size: 35px;}
   #wrap .swiper-wrapper .swiper-slide#museum .inner .right .btns li button a, #wrap .swiper-wrapper .swiper-slide#valmore .inner .right .btns li button a, #wrap .swiper-wrapper .swiper-slide#dazzle .inner .right .btns li button a{padding: 0 45px;}
   #wrap .swiper-wrapper .swiper-slide .inner .left{padding: 50px 30px;}
   #wrap .swiper-wrapper .swiper-slide .inner .left .bottom{left:0;margin-right:0;padding:0 30px}
@@ -238,7 +245,7 @@ html, body, #wrap{height: 100%;}
 }
 @media screen and (max-height: 863px){
   #wrap .swiper-wrapper .swiper-slide .inner .left .bottom table td.point{display: block;height:130px; overflow-y: auto;}
-  #wrap .swiper-wrapper .swiper-slide .inner .left .top h1{font-size: 35px;}
+  #wrap .swiper-wrapper .swiper-slide .inner .top h1{font-size: 35px;}
 }
 @media screen and (max-width: 1455px){
   #wrap #aboutme.swiper-slide.swiper-slide-active .profile .info{height:calc(100% - 256px); overflow-y: auto;}
