@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 1320px), screen and (max-height: 730px){
+  #wrap .swiper-wrapper .swiper-slide#main #typed-strings p, #wrap .swiper-wrapper .swiper-slide#main #typed{font-size: 86px;}
+  #wrap .swiper-wrapper .swiper-slide .inner .left .bottom table td.point{display: block;height:130px; overflow-y: auto;}
+  #wrap .swiper-wrapper .swiper-slide .inner .top h1{font-size: 35px;}
+  #wrap .swiper-wrapper .swiper-slide#museum .inner .right .btns li button a, #wrap .swiper-wrapper .swiper-slide#valmore .inner .right .btns li button a, #wrap .swiper-wrapper .swiper-slide#dazzle .inner .right .btns li button a{padding: 0 45px;}
+  #wrap .swiper-wrapper .swiper-slide .inner .left{padding: 50px 30px;}
+  #wrap .swiper-wrapper .swiper-slide .inner .left .bottom{left:0;margin-right:0;padding:0 30px}
+  #wrap #aboutme .txt span{font-size: 72px;}
+  #wrap #aboutme.swiper-slide.swiper-slide-active .profile .info{height:calc(100% - 256px); overflow-y: auto;}
+}
+@media screen and (max-height: 863px){
+  #wrap .swiper-wrapper .swiper-slide .inner .left .bottom table td.point{display: block;height:130px; overflow-y: auto;}
+  #wrap .swiper-wrapper .swiper-slide .inner .top h1{font-size: 35px;}
+}
+@media screen and (max-width: 1455px){
+  #wrap #aboutme.swiper-slide.swiper-slide-active .profile .info{height:calc(100% - 256px); overflow-y: auto;}
+}
+@media screen and (max-width: 1687px){
+    #wrap .swiper-wrapper .swiper-slide#main #typed-strings p, #wrap .swiper-wrapper .swiper-slide#main #typed{font-size: 86px;}
+}
+
+@media screen and (max-width: 1024px){
+  #wrap .swiper-wrapper .swiper-slide .inner .right .btns li a{line-height: 3.5;font-size: 12px;}
+}
+@media screen and (max-width: 1334px){=
+  #soonsoo li{height: 180px;}
+  #soonsoo .img{height: 100px;}
+  #soonsoo .txt{height: 80px;padding: 10px;font-size: 14px;}
+  #soonsoo .btn.two button + button:after, #soonsoo .btn.three button + button:after{top: 5px;height: 15px;}
+  #wrap .swiper-wrapper .swiper-slide .inner .left .bottom table th,
+  #wrap .swiper-wrapper .swiper-slide .inner .left .bottom table td,
+  #wrap .swiper-wrapper .swiper-slide .inner .left .top .desc,
+  #soonsoo .btn button{font-size: 14px;}
+}#wrap .swiper-wrapper .swiper-slide .inner .top h1{font-size: 30px;}
+#wrap .swiper-wrapper .swiper-slide .inner .top .num{font-size: 40px;}
+#wrap .swiper-wrapper .swiper-slide .inner .left .bottom table td.point{height: 200px;}
+#wrap .swiper-wrapper .swiper-slide .inner .right .btns li a{line-height: 3;font-size: 14px;}
+#soonsoo li{height: 100px;}
+#soonsoo .btn button{padding: 10px 5px;}

@@ -1,5 +1,6 @@
 @charset "UTF-8";
 html, body, #wrap{height: 100%;}
+#wrap #main > p{position: absolute;bottom: 0;left: 0;padding: 10px;font-size: 12px;line-height: 1.5;}
 #wrap .swiper-container{width: 100%;height: 100%;}
 #wrap .swiper-wrapper{height: 100%;}
 #wrap .swiper-wrapper .swiper-slide{overflow: hidden;position: relative;}
@@ -215,7 +216,7 @@ html, body, #wrap{height: 100%;}
 #soonsoo .btn.two button + button,
 #soonsoo .btn.three button + button{position: relative;}
 #soonsoo .btn.two button + button:after,
-#soonsoo .btn.three button + button:after{position: absolute;top: 13px;height: 25px;width:1px;background: #839cc1;content: "";left: 0;}
+#soonsoo .btn.three button + button:after{position: absolute;top: 50%;height: 25px;width:1px;background: #839cc1;content: "";left: 0;transform: translateY(-50%);}
 #soonsoo .btn.three button{float: left;width: 33.3%;}
 
 
@@ -232,24 +233,3 @@ html, body, #wrap{height: 100%;}
 
 
 .clear:after{content: "";display: block;clear:both;}
-
-@media screen and (max-width: 1320px), screen and (max-height: 730px){
-  #wrap .swiper-wrapper .swiper-slide#main #typed-strings p, #wrap .swiper-wrapper .swiper-slide#main #typed{font-size: 86px;}
-  #wrap .swiper-wrapper .swiper-slide .inner .left .bottom table td.point{display: block;height:130px; overflow-y: auto;}
-  #wrap .swiper-wrapper .swiper-slide .inner .top h1{font-size: 35px;}
-  #wrap .swiper-wrapper .swiper-slide#museum .inner .right .btns li button a, #wrap .swiper-wrapper .swiper-slide#valmore .inner .right .btns li button a, #wrap .swiper-wrapper .swiper-slide#dazzle .inner .right .btns li button a{padding: 0 45px;}
-  #wrap .swiper-wrapper .swiper-slide .inner .left{padding: 50px 30px;}
-  #wrap .swiper-wrapper .swiper-slide .inner .left .bottom{left:0;margin-right:0;padding:0 30px}
-  #wrap #aboutme .txt span{font-size: 72px;}
-  #wrap #aboutme.swiper-slide.swiper-slide-active .profile .info{height:calc(100% - 256px); overflow-y: auto;}
-}
-@media screen and (max-height: 863px){
-  #wrap .swiper-wrapper .swiper-slide .inner .left .bottom table td.point{display: block;height:130px; overflow-y: auto;}
-  #wrap .swiper-wrapper .swiper-slide .inner .top h1{font-size: 35px;}
-}
-@media screen and (max-width: 1455px){
-  #wrap #aboutme.swiper-slide.swiper-slide-active .profile .info{height:calc(100% - 256px); overflow-y: auto;}
-}
-@media screen and (max-width: 1687px){
-    #wrap .swiper-wrapper .swiper-slide#main #typed-strings p, #wrap .swiper-wrapper .swiper-slide#main #typed{font-size: 86px;}
-}
