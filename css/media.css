@@ -24,7 +24,7 @@
 @media screen and (max-width: 1024px){
   #wrap .swiper-wrapper .swiper-slide .inner .right .btns li a{line-height: 3.5;font-size: 12px;}
 }
-@media screen and (max-width: 1334px){=
+@media screen and (max-width: 1334px){
   #soonsoo li{height: 180px;}
   #soonsoo .img{height: 100px;}
   #soonsoo .txt{height: 80px;padding: 10px;font-size: 14px;}
